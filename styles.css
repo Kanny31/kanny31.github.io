@@ -6,15 +6,7 @@ nav {
 
     nav a { color: #008080;
     }
-    
-    #top-row {
-      background-color: #E0FFFF;
-      display:flex
-    }
-      
-      .darkbluecolor {
-        color: #4169E1  
-    }
+
     #content{
       width:960px;
       margin:0 auto; 
@@ -24,23 +16,6 @@ nav {
       text-align:center;
       width: 48%
       }
-    
-    .leftcol{
-      width: 48%;
-      flex: 1 0 15em;
-        margin: .5em;
-    }
-    .rightcol{
-      width: 48%;
-      display: flex;
-      flex: 1 0 15em;
-      margin: .5em;
-    }
-    
-    .bottom-paragraph{
-      text-align:center; 
-      width: 48%; 
-    }
     
     .header-top {
       font-family: "Verdana", Geneva, sans-serif;
