@@ -27,8 +27,4 @@
     .full-width{
       width: 100%;
     }
-    #top-row {
-      display: flex; 
-      flex-flow: row wrap;
-      align-items: center;
-    }
+    
