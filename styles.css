@@ -14,7 +14,7 @@
     }
     .paragraph-page {
       font-family: "Courier New", Courier, monospace; 
-      width: 48%;
+      width: 100%;
       }
     
     .text-link { 
@@ -27,4 +27,8 @@
     .full-width{
       width: 100%;
     }
-    
+    .leftcol{
+        width: 48%;
+        flex: 1 0 15em;
+          margin: .5em;
+      }
