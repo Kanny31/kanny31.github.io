@@ -1,0 +1,68 @@
+nav { 
+    background-color: #E0FFFF; 
+      font-size: 1.2em;
+      padding:1em .6em
+    }
+
+    nav a { color: #008080;
+    }
+    
+    #top-row {
+      background-color: #E0FFFF;
+      display:flex
+    }
+      
+      .darkbluecolor {
+        color: #4169E1  
+    }
+    #content{
+      width:960px;
+      margin:0 auto; 
+      background-color: #E0FFFF
+    }
+    .bottom-row {
+      text-align:center;
+      width: 48%
+      }
+    
+    .leftcol{
+      width: 48%;
+      flex: 1 0 15em;
+        margin: .5em;
+    }
+    .rightcol{
+      width: 48%;
+      display: flex;
+      flex: 1 0 15em;
+      margin: .5em;
+    }
+    
+    .bottom-paragraph{
+      text-align:center; 
+      width: 48%; 
+    }
+    
+    .header-top {
+      font-family: "Verdana", Geneva, sans-serif;
+        width:48%
+    }
+    .paragraph-page {
+      font-family: "Courier New", Courier, monospace; 
+      width: 48%;
+      }
+    
+    .text-link { 
+      font-size: 1.1em; 
+    }
+    h1{ 
+    padding: 1em
+    }
+    
+    .full-width{
+      width: 100%;
+    }
+    #top-row {
+      display: flex; 
+      flex-flow: row wrap;
+      align-items: center;
+    }
