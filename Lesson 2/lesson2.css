@@ -20,14 +20,14 @@ main section {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0 1rem;
-	background-color: #eee;
+	background-color: #rgb(30, 17, 148);
 }
 section:nth-child(2) {
 	display: none;
 	margin: 0.5rem;
 }
 .colimage {
-	box-shadow: 0 0 30px #333;
+	box-shadow: 0 0 30px rgb(153, 5, 5);
 }
 
 /* Tablet Views ******************************/
@@ -50,7 +50,7 @@ section:nth-child(2) {
 	main section picture img {
 		width: 100%;
 		height: auto;
-		border: 1px solid #bbb;
+		border: 1px solid #rgb(153, 5, 5);
 	}
 }
 
