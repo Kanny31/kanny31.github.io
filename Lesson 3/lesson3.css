@@ -27,12 +27,14 @@ nav {
 	
 	h2 {
 		font-family: 'Anton', sans-serif;
-		width:48%
+		width:48%;
+		color: #ffffff;
 	}
 	p {
 		font-family: 'Josefin Sans', sans-serif;
 		display:flex;
 	  width: 48%;
+	  color: #4b4e6d;
 	  }
 	
 	.text-link { 
@@ -41,6 +43,7 @@ nav {
 	h1{ 
 	padding: 1em;
 	font-family: 'Anton', sans-serif;
+	color: #ffffff;
 	}
 	
 	.full-width{
