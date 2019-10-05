@@ -1,34 +1,58 @@
-body {
-	font-size: 16px;
-	font-family: 'Notable', sans-serif;
-}
-main {
-	max-width: 767px;
-	margin: 0 auto;
-}
-h2 {
-	font-family: 'Grenze', serif;
-}
+nav { 
+	background-color: #84cc6; 
+	  font-size: 1.2em;
+	  padding:1em .6em
+	}
+	nav a:hover{
+	}
+	nav ul{
+	  display:flex;
+		margin:0
+	}
+	.main-page {
+		background-color: #95a3b3;
+	}	
+	#top-row {
+	  background-color: #E0FFFF;
+	  display:flex;
 
-main {
-	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 0.8rem;
-}
-
-main section {
-	margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0 1rem;
-	background-color: #rgb(30, 17, 148);
-}
-section:nth-child(2) {
-	display: none;
-	margin: 0.5rem;
-}
-.colimage {
-	box-shadow: 0 0 30px rgb(153, 5, 5);
-}
+	.bottom-row {
+	  text-align:center;
+	  width: 48%
+	  }
+	
+	.bottom-paragraph{
+	  text-align:center; 
+	  width: 48%; 
+	  font-color:"#4b4e6d"
+	}
+	
+	h2 {
+		font-family: 'Anton', sans-serif;
+		width:48%
+	}
+	p {
+		font-family: 'Josefin Sans', sans-serif;
+		display:flex;
+	  width: 48%;
+	  }
+	
+	.text-link { 
+	  font-size: 1.1em; 
+	}
+	h1{ 
+	padding: 1em;
+	font-family: 'Anton', sans-serif;
+	}
+	
+	.full-width{
+	  width: 100%;
+	}
+	#top-row, #middle-row {
+	  display: flex; 
+	  flex-flow: row wrap;
+	  align-items: center;
+	}
 
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Anton', sans-serif;
