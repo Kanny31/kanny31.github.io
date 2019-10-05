@@ -1,7 +1,8 @@
 nav { 
 	background-color: #84dcc6; 
 	  font-size: 1.2em;
-	  padding:1em .6em
+	  padding:1em .6em;
+	  color: #ffffff
 	}
 	nav a:hover{
 	}
