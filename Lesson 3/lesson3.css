@@ -16,20 +16,14 @@ nav {
 	#main-page {
 		background-color: #95a3b3;
 	}	
-	#top-row {
-	  background-color: #E0FFFF;
-	  display:flex;
 
 	  #main-logo {
 		  display:float;
 	  }
-	.bottom-paragraph{
-	  text-align:center; 
-	  width: 48%; 
-	  font-color:"#4b4e6d"
-	}
+	
 	
 	h2 {
+		display:flex;
 		font-family: 'Anton', sans-serif;
 		width:48%;
 		color: #ffffff;
@@ -44,7 +38,8 @@ nav {
 	.text-link { 
 	  font-size: 1.1em; 
 	}
-	h1{ 
+	h1 { 
+	display:flex;
 	padding: 1em;
 	font-family: 'Anton', sans-serif;
 	color: #ffffff;
@@ -53,11 +48,7 @@ nav {
 	.full-width{
 	  width: 100%;
 	}
-	#top-row, #middle-row {
-	  display: flex; 
-	  flex-flow: row wrap;
-	  align-items: center;
-	}
+	
 
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Anton', sans-serif;
