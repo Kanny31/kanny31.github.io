@@ -15,6 +15,10 @@ nav {
 	nav a { 
 	color:#ffffff
 	}
+	.text-link { 
+		font-size: 1.1em; 
+		color: #ffffff
+	  }
 	
 	#main-page {
 		background-color: #95a3b3;
@@ -51,7 +55,3 @@ nav {
 	.full-width{
 	  width: 100%;
 	}
-	
-
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Anton', sans-serif;
