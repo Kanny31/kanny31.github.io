@@ -1,5 +1,5 @@
 nav { 
-	background-color: #84cc6; 
+	background-color: #84dcc6; 
 	  font-size: 1.2em;
 	  padding:1em .6em
 	}
@@ -9,6 +9,10 @@ nav {
 	  display:flex;
 		margin:0
 	}
+	
+	nav a { color:#84dcc6;
+	}
+	
 	#main-page {
 		background-color: #95a3b3;
 	}	
