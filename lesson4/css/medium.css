@@ -13,8 +13,9 @@ nav {
 	}
 
 	#nav li {
-		display: inline
-	
+		display: inline;
+	}
+
 	nav a { 
 	color:#ffffff
 	}
@@ -31,6 +32,8 @@ nav {
     }	
 
 	  #main-logo {
+			width: 150px;
+			padding: 15px; 
 		  display:float;
 	  }
 		#todays-date{
