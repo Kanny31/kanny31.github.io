@@ -63,13 +63,14 @@ main{
 				background-color: #95a3b3;
 			}
 
+			
 			h3 {
 				display:flex;
 				font-family: 'Anton', sans-serif;
 				width:48%;
-						color: #4b4e6d;
-						background-color: #95a3b3;
-						text-align: center;
+				color: #4b4e6d;
+				background-color: #95a3b3;
+				font-display: center;
 					}
 	p {
 		font-family: 'Josefin Sans', sans-serif;
