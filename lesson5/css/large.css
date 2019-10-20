@@ -81,8 +81,47 @@ main{
 	
 	.text-link { 
 	  font-size: 1.1em; 
-	}
-	
+    }
+    .fall-img{
+        width: 450px;
+        display:float;
+    }
+    .road-img{
+        width:350px;
+    }
+	.preston-article {
+        border: 1px;
+    }
+    .forecast-section {
+        border: 1px;
+        display: flex;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+.weather-summary{
+    border: 1px;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #4b4e6d;
+    background-color: #95a3b3;
+}
+    .weather-now {
+        display: flex;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .high{
+        display: flex;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .humidity{
+        display: flex;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+                    
+    .wind-speed{
+        display: flex;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
 	.full-width{
 	  width: 100%;
 	}
@@ -91,4 +130,5 @@ main{
 		nav ul{
 			flex-direction:column;
 		}
-	}
+    }
+    
