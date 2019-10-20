@@ -87,12 +87,12 @@ main{
         display: flex; 
         width: 48%
     }
-    .fall-img{
+    #fall-img{
         width: 250px;
         padding: 20px; 
 	    display: inline-block;
     }
-    .road-img{
+    #road-img{
         width:200px;
         padding: 15px; 
 	    display: inline-block;
