@@ -5,49 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Preston Page of Weather Site</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta description="This is the assignment for week 4 of the weather site project.  This week we are working on the Preston page of the site.">
-    <link rel="shortcut icon" href="/images/favicon pw.sb-9a3cbb49-qiDZmI">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans%7cPlayfair+Display&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson5/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Anton+Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/large.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/lesson4normalize.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/medium.css"/>
 </head>
 <body>
-    <header>
-        <img id="header-img" src="/images/pw-logo.png" alt="pitcure of Predictable Weather's logo."/>
+        <div id ="main-page">
+    <header> 
+        <img id="main-logo" src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/Lesson%203/iconfinder_sunny_2800045.png"  width="115" height="100" alt="Weather logo."/>
         <section class="headings">
             <h1>
-                Predictable Weather 
+                All Things Weather
             </h1>
-            <div id="slogan">
-                Where the weather is always predictable.
-            </div>
         </section> 
     </header>
     <nav>
-        <ul class="navigation responsive">
-            <li>
-                <a href="#" onclick="toggleMenu()">&#9776; Menu</a>
-            </li>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Preston</a>
-            </li>
-            <li>
-                <a href="#">Soda Springs</a>
-            </li> 
-            <li>
-                <a href="#">Fish Haven</a>
-            </li>
-            <li>
-                <a href="#">Storm Center</a>
-            </li>
-            <li>
-                <a href="#">Gallery</a>
-            </li>
-        </ul>
+        <ul>
+                <li>
+                        <a href="#" onclick="toggleMenu()">&#9776; Menu</a>
+                    </li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Preston</a>
+                    </li>
+                    <li>
+                        <a href="#">Soda Springs</a>
+                    </li> 
+                    <li>
+                        <a href="#">Fish Haven</a>
+                    </li>
+                    <li>
+                        <a href="#">Storm Center</a>
+                    </li>
+                    <li>
+                        <a href="#">Gallery</a>
+                    </li>
+                </ul>
     </nav>
     <main>
         <h2 id="preston-heading">
@@ -55,23 +53,23 @@
         </h2>
         <div id="div-one">
             <section id="hero-section">
-                <img id="umbrella-img" src="/images/umbrellas.jpg" alt="picture of colorful umbrellas">
+                <img id="fall-img" src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson5/images/cascade-environment-falls-1564655.jpg" alt="picture of fall leaves">
             </section>
             <div id="weather-summary">
                 <h5 id="weather-heading">
                     Weather Summary
                 </h5>
                 <p>
-                    Weather Now: <span id="weather-now">Sunny</span>
+                    Weather Now: <span id="weather-now">Cloudy</span>
                 </p>
                 <p>
-                    High: <span id="high">96&#176;F</span> 
+                    High: <span id="high">75&#176;F</span> 
                 </p>
                 <p>
-                    Humidity: <span id="humidity">22&#37;</span>
+                    Humidity: <span id="humidity">15&#37;</span>
                 </p>
                 <p>
-                    Wind Speed: <span id="wind-speed">7mph</span>
+                    Wind Speed: <span id="wind-speed">2mph</span>
                 </p>
         </div>
         </div>
@@ -80,57 +78,57 @@
         </h3>
         <section id="forecast-section">
                 <div id="thu"class="forecast">
-                    Thu
-                    <div id="thu-high"> High: 90&#176;
+                    Sat:
+                    <div id="thu-high"> High: 78&#176;
                     </div>
-                    <div id="thu-low"> Low: 67&#176;
+                    <div id="thu-low"> Low: 40&#176;
                     </div>
                     <div id="thu-icon">
-                        <img src="" alt="sunny icon">
+                        <img src="" alt="cloudy icon">
                     </div>
                 </div>
                 <div id="fri"class="forecast">
-                    Fri
-                    <div id="fri-high"> High: 93&#176;
+                    Sun:
+                    <div id="fri-high"> High: 60&#176;
                     </div>
-                    <div id="fri-low"> Low: 70&#176;
+                    <div id="fri-low"> Low: 30&#176;
                     </div>
                     <div id="fri-icon">
-                        <img src="" alt="sunny icon">
+                        <img src="" alt="rainy icon">
                     </div>
                 </div>
                 <div id="sat"class="forecast">
-                    Sat
-                    <div id="sat-high"> High: 89&#176;
+                    Mon:
+                    <div id="sat-high"> High: 90&#176;
                     </div>
-                    <div id="sat-low"> Low: 65&#176;
+                    <div id="sat-low"> Low: 50&#176;
                     </div>
                     <div id="sat-icon">
                         <img src="" alt="sunny icon">
                     </div>
                 </div>
                 <div id="sun"class="forecast">
-                    Sun
-                    <div id="sun-high"> High: 86&#176;
+                    Tue:
+                    <div id="sun-high"> High: 89&#176;
                     </div>
-                    <div id="sun-low"> Low: 63&#176;
+                    <div id="sun-low"> Low: 65&#176;
                     </div>
                     <div id="sun-icon">
                         <img src="" alt="sunny icon">
                     </div>
                 </div>
                 <div id="mon"class="forecast">
-                    Mon
-                    <div id="mon-high"> High: 86&#176;
+                    Wed:
+                    <div id="mon-high"> High: 90&#176;
                     </div>
-                    <div id="mon-low"> Low: 63&#176;
+                    <div id="mon-low"> Low: 44&#176;
                     </div>
                     <div id="mon-icon">
                         <img src="" alt="sunny icon">
                     </div>
                 <div id="tues">
-                        Tues
-                        <div id="tues-high"> High: 84&#176;
+                        Thurs:
+                        <div id="tues-high"> High: 89&#176;
                         </div>
                         <div id="tues-low"> Low: 62&#176;
                         </div>
@@ -144,9 +142,9 @@
             <h3>
                 Article of the Day
             </h3>
-            <img id="food-img" src="/images/food.jpg" alt="picture of food">
+            <img id="fall-img" src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson5/images/asphalt-countryside-dawn-3070377.jpg" alt="picture of fall road">
             <p>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae laboriosam fugiat officia quam magnam id illo asperiores! Sint, labore saepe dignissimos praesentium recusandae molestias quo ducimus quidem ullam fuga? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellendus magnam veritatis placeat dicta excepturi molestiae quibusdam aut voluptas, laudantium deserunt eveniet dolor laborum modi quam alias voluptatibus, a doloribus! 
+               Fall is a wonderful time of year. The leaves are changing and we are reminded that it is okay to let things go. Fall shows us how beautiful change is and that it is okay to let go of past things.  
             </p>
             
         </section>
@@ -158,7 +156,7 @@
     </main>
     <footer>
         <p>
-            &copy; <span id="current-date"></span> | McKenzie Lewis | Utah | <a href="https://www.byui.edu/online">BYU Online Learning</a>
+            &copy; <span id="current-date"></span> | Etim Akan | Utah | <a href="https://www.byui.edu/online">BYU-I Online Learning</a>
         </p>
         <p>
             Current Date:<span id="todays-date"></span>
