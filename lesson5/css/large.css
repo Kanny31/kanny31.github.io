@@ -83,11 +83,12 @@ main{
 	  font-size: 1.1em; 
     }
     .fall-img{
-        width: 450px;
+        width: 250px;
         display:float;
     }
     .road-img{
-        width:350px;
+        width:200px;
+        display: float;
     }
 	.preston-article {
         border: 1px;
