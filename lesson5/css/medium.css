@@ -82,12 +82,20 @@ main{
 	.text-link { 
 	  font-size: 1.1em; 
     }
+    .weather-section{
+        border: 1px;
+        display: flex; 
+        width: 48%
+    }
     .fall-img{
-        width: 450px;
-        display:float;
+        width: 250px;
+        padding: 20px; 
+	    display: inline-block;
     }
     .road-img{
-        width:350px;
+        width:200px;
+        padding: 15px; 
+	    display: inline-block;
     }
 	.preston-article {
         border: 1px;
