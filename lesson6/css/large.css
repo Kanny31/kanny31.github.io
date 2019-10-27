@@ -104,8 +104,25 @@ main{
     .forecast-section {
         border: 1px;
         display: flex;
-        font-family: 'Josefin Sans', sans-serif;
-    }
+		font-family: 'Josefin Sans', sans-serif;
+	}
+		.sunny-img{
+		width: 100px;
+	padding: 15px; 
+	display: inline-block;
+	}
+	
+	.rain-img{
+		width: 100px;
+	    padding: 15px; 
+	    display: inline-block;
+	}
+
+	.cloudy-img {
+		width: 100px;
+	    padding: 15px; 
+	    display: inline-block;
+	}
 .weather-summary{
 	position: absolute;
 	top: 10px;
