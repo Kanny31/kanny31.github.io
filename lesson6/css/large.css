@@ -103,7 +103,7 @@ main{
         display: flex;
 		font-family: 'Josefin Sans', sans-serif;
 	}
-		.sunny-img{
+		#sunny-img{
 		width: 100px;
 	padding: 15px; 
 	display: inline-block;
