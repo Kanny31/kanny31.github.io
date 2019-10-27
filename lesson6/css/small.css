@@ -13,15 +13,30 @@ nav {
 		color: #4b4e6d;
 		list-style-type: none;
 	}
-		#nav li {
+		nav li: hover {
 			display: inline;
+			background: #4b4e6d;
+		}
+		li.active {
+			background-color: #6b7baa;
 		}
 header h1{
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: middle;
+	margin: 0;
 }	
+section.headings {
+	display: flex;
+	flex-direction: column; 
+	align-items: center; 
+    justify-content: center;
+    text-align: center;
+    margin: auto; 
+}
 header {
 	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 	nav a { 
 	color:#4b4e6d;
@@ -32,13 +47,9 @@ header {
 		font-size: 1.1em; 
 		color: #4b4e6d;
 	  }
-	
-	#main-page {
-		background-color: #95a3b3;
-	}	
-	
+
 #main-logo {
-	width: 150px;
+	width: 100px;
 	padding: 15px; 
 	display: inline-block;
 
@@ -48,7 +59,11 @@ header {
 				margin: 0;
     }
 main{
-	padding: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto; 
+    justify-content: center; 
 }
 	
 	h2 {
@@ -84,7 +99,7 @@ main{
         width: 48%
     }
     #fall-img{
-        width: 250px;
+        width: 100%;
         padding: 20px; 
 	    display: inline-block;
     }
@@ -102,11 +117,14 @@ main{
         font-family: 'Josefin Sans', sans-serif;
     }
 .weather-summary{
-    border: 1px;
-    display: flex;
+	position: absolute;
+	top: 10px;
+	left: 10px; 
+	background: #84dcc6;
+    padding:10 px; 
     font-family: 'Josefin Sans', sans-serif;
     color: #4b4e6d;
-    background-color: #95a3b3;
+	box-sizing: border-box;
 }
     .weather-now {
         display: flex;
@@ -133,5 +151,8 @@ main{
 	{
 		nav ul{
 			flex-direction:column;
-		}
+        }
+        .forecast-section {
+            display:none;
+        }
     }
