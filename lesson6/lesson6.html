@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Preston Page Weather Site</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/leson6/favicon.ico">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Anton+Josefin+Sans&display=swap" rel="stylesheet">
     <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/large.css" />
@@ -13,12 +13,12 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/medium.css"/>
 </head>
 <body>
-        <div id ="main-page">
     <header> 
         <img id="main-logo" src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/Lesson%203/iconfinder_sunny_2800045.png" alt="Weather logo."/>
         <section class="headings">
             <h1>
                 All Things Weather
+                <div>Any Weather Any Time!</div>
             </h1>
         </section> 
     </header>
@@ -30,7 +30,7 @@
                     <li>
                         <a href="#">Home</a>
                     </li>
-                    <li>
+                    <li class= "active">
                         <a href="#">Preston</a>
                     </li>
                     <li>
@@ -48,17 +48,19 @@
                 </ul>
     </nav>
     <main>
-        <h3>
+        <h2>
             Preston Idaho
-        </h3>
+        </h2>
         <div id="weather-section">
-            <section>
-                <img id="fall-img" src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson5/images/cascade-environment-falls-1564655.jpg" alt="picture of fall leaves">
-            </section>
+                <picture>
+                        <source srcset="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/small_skyview.jpeg" media="(min-width:37.49em) and (max-width:59.9em)">
+                        <source srcset="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/medium_skyview.jpeg" media="(min-width:60em)">
+                        <img src="lesson6/large_skyview.jpeg" alt="Hero Banner">
+                      </picture>
             <div id="weather-summary">
-                <h2>
+                <h3>
                     Weather Summary
-                </h2>
+                </h3>
                 <p>
                     Current Temperature: <span id="weather-now">Cloudy</span>
                 </p>
@@ -73,11 +75,11 @@
                 </p>
         </div>
         </div>
-        <h2>
+        <h2 id= "forecast-section">
             5 Day Forecast
         </h2>
         <section id="forecast-section">
-                <div id="sat"class="forecast-section">
+                <div id="sat" class="forecast-section">
                     Sat:
                     <div> High: 78&#176;
                     </div>
@@ -87,7 +89,7 @@
                         <img src="" alt="cloudy icon">
                     </div>
                 </div>
-                <div id="sun" class="forecast-section">
+                <div id= "sun" class="forecast-section">
                     Sun:
                     <div> High: 60&#176;
                     </div>
@@ -97,21 +99,21 @@
                         <img src="" alt="rainy icon">
                     </div>
                 </div>
-                <div id="mon"class="forecast-section">
+                <div id="mon" class="forecast-section">
                     Mon:
                     <div> High: 90&#176;
                     </div>
-                    <div></div> Low: 50&#176;
+                    <div>Low: 50&#176;
                     </div>
                     <div>
                         <img src="" alt="sunny icon">
                     </div>
                 </div>
-                <div id="tue"class="forecast-section">
+                <div id="tue" class="forecast-section">
                     Tue:
-                    <div id=> High: 89&#176;
+                    <div> High: 89&#176;
                     </div>
-                    <div id=> Low: 65&#176;
+                    <div> Low: 65&#176;
                     </div>
                     <div>
                         <img src="" alt="sunny icon">
@@ -121,14 +123,14 @@
                     Wed:
                     <div> High: 90&#176;
                     </div>
-                    <div id=> Low: 44&#176;
+                    <div> Low: 44&#176;
                     </div>
                     <div>
                         <img src="" alt="sunny icon">
                     </div>
                 <div id="thurs" class= "forecast-section">
                         Thurs:
-                        <div id=> High: 89&#176;
+                        <div> High: 89&#176;
                         </div>
                         <div> Low: 62&#176;
                         </div>
@@ -152,6 +154,15 @@
             <h3>
                 Contact Us
             </h3>
+            <p>
+                    Address: 123 e 456 n, Rexburg, ID, 83440
+                  </p>
+                  <p>
+                    Phone: (444)333-1111
+                  </p>
+                  <p>
+                    Fax:(111)222-3333
+                  </p>
         </section>
     </main>
     <footer>
@@ -159,9 +170,8 @@
             &copy; <span id="current-date"></span> | Etim Akan | Utah | <a href="https://www.byui.edu/online">BYU-I Online Learning</a>
         </p>
         <p>
-            Current Date: Oct, 19, 2019<span id="todays-date"></span>
+            Current Date:<span></span>
         </p>
     </footer>
-    <script src="js/responsive.js"></script>
 </body>
 </html>
