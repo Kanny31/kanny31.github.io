@@ -68,14 +68,14 @@ main{
 	h2 {
 		display:flex;
 		font-family: 'Anton', sans-serif;
-        color: #4b4e6d;
+		color: #4b4e6d;
+		text-align: center; 
 			}
 
 			h3 {
 				display:flex;
 				font-family: 'Anton', sans-serif;
 				color: #4b4e6d;
-				text-align: center;
 					}
 	p {
 		font-family: 'Josefin Sans', sans-serif;
@@ -85,10 +85,11 @@ main{
 	
 	.text-link { 
 	  font-size: 1.1em; 
-    }
+	}
+	
     #sky-img{
 		width: 100%;
-		margin: auto; 
+		margin: auto;  
     }
     #road-img{
         width:200px;
@@ -105,8 +106,8 @@ main{
 	}
 		#sunny-img{
 		width: 100px;
-	padding: 15px; 
-	display: inline-block;
+	    padding: 15px; 
+	    display: inline-block;
 	}
 
 	

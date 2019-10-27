@@ -71,7 +71,6 @@ main{
 		font-family: 'Anton', sans-serif;
 		width:48%;
         color: #4b4e6d;
-				background-color: #95a3b3;
 			}
 
 			h3 {
@@ -79,7 +78,6 @@ main{
 				font-family: 'Anton', sans-serif;
 				width:48%;
 				color: #4b4e6d;
-				background-color: #95a3b3;
 				text-align: center;
 					}
 	p {
@@ -87,8 +85,7 @@ main{
 		display:flex;
 	  width: 48%;
       color: #4b4e6d;
-      background-color: #95a3b3;
-	  }
+      }
 	
 	.text-link { 
 	  font-size: 1.1em; 
@@ -108,21 +105,21 @@ main{
 	    display: inline-block;
     }
 	.preston-article {
-        border: 1px;
+		border: 1px;
+		display: flex; 
+		margin: auto; 
     }
-    .forecast-section {
-        border: 1px;
-        display: flex;
+    .forecast-section { 
 		font-family: 'Josefin Sans', sans-serif;
 		width: 100px;
-	padding: 15px; 
-	display: inline-block;
+	    padding: 15px; 
+	   display: inline-block;
 	}
 	
 	#sunny-img{
 		width: 100px;
-	padding: 15px; 
-	display: inline-block;
+	    padding: 10px; 
+	   display: inline-block;
 	}
 
 	#weather-summary{

@@ -69,25 +69,20 @@ main{
 	h2 {
 		display:flex;
 		font-family: 'Anton', sans-serif;
-		width:48%;
         color: #4b4e6d;
-				background-color: #95a3b3;
+        text-align: center;
 			}
 
 			h3 {
 				display:flex;
 				font-family: 'Anton', sans-serif;
-				width:48%;
 				color: #4b4e6d;
-				background-color: #95a3b3;
-				text-align: center;
 					}
 	p {
 		font-family: 'Josefin Sans', sans-serif;
 		display:flex;
 	  width: 48%;
       color: #4b4e6d;
-      background-color: #95a3b3;
 	  }
 	
 	.text-link { 
@@ -111,8 +106,6 @@ main{
         border: 1px;
     }
     .forecast-section {
-        border: 1px;
-        display: flex;
         font-family: 'Josefin Sans', sans-serif;
         width: 100px;
 	padding: 15px; 
@@ -121,7 +114,7 @@ main{
 
     #sunny-img{
 		width: 100px;
-	padding: 15px; 
+	padding: 5px; 
 	display: inline-block;
 	}
 	
