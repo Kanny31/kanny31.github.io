@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Preston Page Weather Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson5/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Anton+Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/large.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/lesson6normalize.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/medium.css"/>
+</head>
+<body>
+        <div id ="main-page">
+    <header> 
+        <img id="main-logo" src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/Lesson%203/iconfinder_sunny_2800045.png" alt="Weather logo."/>
+        <section class="headings">
+            <h1>
+                All Things Weather
+            </h1>
+        </section> 
+    </header>
+    <nav>
+        <ul>
+                <li>
+                        <a href="#" onclick="toggleMenu()">&#9776; Menu</a>
+                    </li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Preston</a>
+                    </li>
+                    <li>
+                        <a href="#">Soda Springs</a>
+                    </li> 
+                    <li>
+                        <a href="#">Fish Haven</a>
+                    </li>
+                    <li>
+                        <a href="#">Storm Center</a>
+                    </li>
+                    <li>
+                        <a href="#">Gallery</a>
+                    </li>
+                </ul>
+    </nav>
+    <main>
+        <h3>
+            Preston Idaho
+        </h3>
+        <div id="weather-section">
+            <section>
+                <img id="fall-img" src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson5/images/cascade-environment-falls-1564655.jpg" alt="picture of fall leaves">
+            </section>
+            <div id="weather-summary">
+                <h2>
+                    Weather Summary
+                </h2>
+                <p>
+                    Current Temperature: <span id="weather-now">Cloudy</span>
+                </p>
+                <p>
+                    High: <span id="high">75&#176;F</span> 
+                </p>
+                <p>
+                    Humidity: <span id="humidity">15&#37;</span>
+                </p>
+                <p>
+                    Wind Speed: <span id="wind-speed">2mph</span>
+                </p>
+        </div>
+        </div>
+        <h2>
+            5 Day Forecast
+        </h2>
+        <section id="forecast-section">
+                <div id="sat"class="forecast-section">
+                    Sat:
+                    <div> High: 78&#176;
+                    </div>
+                    <div> Low: 40&#176;
+                    </div>
+                    <div>
+                        <img src="" alt="cloudy icon">
+                    </div>
+                </div>
+                <div id="sun" class="forecast-section">
+                    Sun:
+                    <div> High: 60&#176;
+                    </div>
+                    <div> Low: 30&#176;
+                    </div>
+                    <div>
+                        <img src="" alt="rainy icon">
+                    </div>
+                </div>
+                <div id="mon"class="forecast-section">
+                    Mon:
+                    <div> High: 90&#176;
+                    </div>
+                    <div></div> Low: 50&#176;
+                    </div>
+                    <div>
+                        <img src="" alt="sunny icon">
+                    </div>
+                </div>
+                <div id="tue"class="forecast-section">
+                    Tue:
+                    <div id=> High: 89&#176;
+                    </div>
+                    <div id=> Low: 65&#176;
+                    </div>
+                    <div>
+                        <img src="" alt="sunny icon">
+                    </div>
+                </div>
+                <div id="wed" class=forecast-section>
+                    Wed:
+                    <div> High: 90&#176;
+                    </div>
+                    <div id=> Low: 44&#176;
+                    </div>
+                    <div>
+                        <img src="" alt="sunny icon">
+                    </div>
+                <div id="thurs" class= "forecast-section">
+                        Thurs:
+                        <div id=> High: 89&#176;
+                        </div>
+                        <div> Low: 62&#176;
+                        </div>
+                        <div>
+                            <img src="" alt="sunny icon">
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section id="preston-article">
+            <h3>
+                Article of the Day
+            </h3>
+            <img id="road-img" src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson5/images/asphalt-countryside-dawn-3070377.jpg" alt="picture of fall road">
+            <p>
+               Fall is a wonderful time of year. The leaves are changing and we are reminded that it is okay to let things go. Fall shows us how beautiful change is and that it is okay to let go of past things.  
+            </p>
+            
+        </section>
+        <section>
+            <h3>
+                Contact Us
+            </h3>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="current-date"></span> | Etim Akan | Utah | <a href="https://www.byui.edu/online">BYU-I Online Learning</a>
+        </p>
+        <p>
+            Current Date: Oct, 19, 2019<span id="todays-date"></span>
+        </p>
+    </footer>
+    <script src="js/responsive.js"></script>
+</body>
+</html>
