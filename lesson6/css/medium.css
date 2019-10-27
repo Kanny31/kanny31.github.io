@@ -125,28 +125,16 @@ main{
 	padding: 15px; 
 	display: inline-block;
 	}
-	
-	.rain-img{
-		width: 100px;
-	    padding: 15px; 
-	    display: inline-block;
-	}
 
-	.cloudy-img {
-		width: 100px;
-	    padding: 15px; 
-	    display: inline-block;
+	#weather-summary{
+		position: absolute;
+		top: 10px;
+		left: 10px; 
+		background: #84dcc6;
 	}
-.weather-summary{
-	position: absolute;
-	top: 10px;
-	left: 10px; 
-	background: #84dcc6;
-    padding:10 px; 
-    font-family: 'Josefin Sans', sans-serif;
-    color: #4b4e6d;
-	background-color: #95a3b3;
-	box-sizing: border-box;
+	
+	* {
+		box-sizing: border-box;
 }
     .weather-now {
         display: flex;

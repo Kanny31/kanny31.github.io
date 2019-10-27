@@ -69,21 +69,18 @@ main{
 		display:flex;
 		font-family: 'Anton', sans-serif;
         color: #4b4e6d;
-				background-color: #95a3b3;
 			}
 
 			h3 {
 				display:flex;
 				font-family: 'Anton', sans-serif;
 				color: #4b4e6d;
-				background-color: #95a3b3;
 				text-align: center;
 					}
 	p {
 		font-family: 'Josefin Sans', sans-serif;
 		display:flex;
       color: #4b4e6d;
-      background-color: #95a3b3;
 	  }
 	
 	.text-link { 
@@ -111,26 +108,14 @@ main{
 	padding: 15px; 
 	display: inline-block;
 	}
-	
-	.rain-img{
-		width: 100px;
-	    padding: 15px; 
-	    display: inline-block;
-	}
 
-	.cloudy-img {
-		width: 100px;
-	    padding: 15px; 
-	    display: inline-block;
-	}
-.weather-summary{
+	
+#weather-summary{
 	position: absolute;
 	top: 10px;
 	left: 10px; 
 	background: #84dcc6;
-    padding:10 px; 
-    font-family: 'Josefin Sans', sans-serif;
-	color: #4b4e6d;}
+}
 	*{
 	box-sizing: border-box;
 }
