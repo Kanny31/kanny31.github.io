@@ -9,13 +9,6 @@
     height: 400px; 
     columns: auto;
   }
-  body {
-      display: table-row;
-      vertical-align: inherit;
-      border-spacing: 0px;
-      border-collapse: separate; 
-      white-space: pre-wrap;
-  }
 
   .column {
     flex: 50%;
