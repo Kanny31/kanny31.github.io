@@ -32,4 +32,4 @@ imagesToLoad.forEach((img) => {
     });
 }
 
-/!citation: help from classmate McKenzie Lewis !/ 
+/!citation: help from classmate McKenzie Lewis and MDN web docs !/ 
