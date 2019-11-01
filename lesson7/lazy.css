@@ -9,7 +9,6 @@
     height: 400px; 
     columns: auto;
   }
-
   .column {
     flex: 50%;
     padding: 0 4px;
