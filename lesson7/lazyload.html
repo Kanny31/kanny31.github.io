@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lazy Load Images</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="lazy.css" /> 
+</head>
+<body>
+<header>
+   <h1>
+   Lazy Load Images
+   </h1> 
+</header>
+<main>
+        <picture>
+                <img src="/images/placeholder.png" data-src="/images/beach-photo-1.jpg" loading="lazy" alt="sillouettes of surfers">
+           </picture>
+           <picture>
+                <img src="/images/placeholder.png" data-src="/images/beach-photo-2.jpg" loading="lazy" alt="second beach picture">
+           </picture>
+           <picture>
+                <img src="/images/placeholder.png" data-src="/images/beach-photo-3.jpg" loading="lazy" alt="third beach picture">
+            </picture>
+            <picture>
+                <img src="/images/placeholder.png" data-src="/images/beach-photo-4.jpg" loading="lazy" alt="fourth beach picture">
+            </picture>
+            <picture>
+                <img src="/images/placeholder.png" data-src="/images/beach-photo-5.jpg" loading="lazy" alt="fifth beach picture">
+            </picture>
+</main>
+<footer>
+
+</footer>    
+<script src="java.js" defer></script>    
+</body>
+</html>
