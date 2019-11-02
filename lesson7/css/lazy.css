@@ -16,10 +16,9 @@
   
   .column img {
     margin-top: 8px;
-    vertical-align: auto;
+    vertical-align: middle;
   }
   h2 {
     color: #4b4e6d;
     display: flex;
-    margin:auto;
 }
