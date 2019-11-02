@@ -16,7 +16,7 @@
   
   .column img {
     margin-top: 8px;
-    vertical-align: middle;
+    vertical-align: auto;
   }
   h2 {
     color: #4b4e6d;
