@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Preston Page Weather Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Anton+Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/large.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/lesson7normalize.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/medium.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/small.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/lazy.css"/>
+</head>
+<body>
+    <header> 
+        <img id="main-logo" src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/Lesson%203/iconfinder_sunny_2800045.png" alt="Weather logo."/>
+        <section class="headings">
+            <h2>
+                All Things Weather
+                <p>Any Weather Any Time!</p>
+            </h2>
+        </section> 
+    </header>
+    <nav>
+            <ul>
+                    <li>
+                            <a href="#"> <li>
+                                    <a href="#" onclick="toggleMenu()">&#9776; Menu</a>
+                                </li>
+                        </li>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class= "active">
+                            <a href="lesson6.html">Preston</a>
+                        </li>
+                        <li>
+                            <a href="#">Soda Springs</a>
+                        </li> 
+                        <li>
+                            <a href="#">Fish Haven</a>
+                        </li>
+                        <li>
+                            <a href="#">Storm Center</a>
+                        </li>
+                        <li>
+                            <a href="#">Gallery</a>
+                        </li>
+                    </ul>
+        </nav>
+        <main>
+        <h1>
+                Gallery
+            </h1>
+            <div class="grid-container">
+                <figure class="gal-grid">
+                    <img src="/images/placeholder.png" data-src="/images/galleryphoto1.jpg">
+                    <figcaption>Braving the Weather</figcaption>
+                </figure>
+                <figure class="gal-grid">
+                    <img id="img-2" src="/images/placeholder.png" data-src="/images/galleryphoto2.jpg">
+                    <figcaption>Caught at Sunset</figcaption>
+                </figure>
+                <figure class="gal-grid">
+                    <img src="/images/placeholder.png" data-src="/images/galleryphoto3.jpg">
+                    <figcaption>Winter Wonderland</figcaption>
+                </figure>
+                <figure class="gal-grid">
+                    <img src="/images/placeholder.png" data-src="/images/galleryphoto4.jpg">
+                    <figcaption>Striking!</figcaption>
+                </figure>
+                <figure class="gal-grid">
+                    <img src="/images/placeholder.png" data-src="/images/galleryphoto5.jpg">
+                    <figcaption>Cold as Ice</figcaption>
+                </figure>
+                <figure class="gal-grid">
+                    <img src="/images/placeholder.png" data-src="/images/galleryphoto6.jpg">
+                    <figcaption>Close-Up</figcaption>
+                </figure>
+                <figure class="gal-grid">
+                    <img src="/images/placeholder.png" data-src="/images/galleryphoto7.jpg">
+                    <figcaption>Take the Road Less Traveled</figcaption>
+                </figure>
+                <figure class="gal-grid">
+                    <img src="/images/placeholder.png" data-src="/images/galleryphoto8.jpg">
+                    <figcaption>Or the Road More Traveled</figcaption>
+                </figure>
+                <figure class="gal-grid">
+                    <img src="/images/placeholder.png" data-src="/images/galleryphoto9.jpg">
+                    <figcaption>It Only Depends on Where You Want to Go</figcaption>
+                </figure>
+            </div>  
+        </main>
+        <section>
+                <h2>
+                    Contact Us
+                </h2>
+                <p>
+                        Address: 123 e 456 n, Rexburg, ID, 83440
+                      </p>
+                      <p>
+                        Phone: (444)333-1111
+                      </p>
+                      <p>
+                        Fax:(111)222-3333
+                      </p>
+            </section>
+        </main>
+        <footer>
+            <p>
+                &copy; <span id="current-date"></span> | Etim Akan | Utah | <a href="https://www.byui.edu/online">BYU-I Online Learning</a>
+            </p>
+            <p>
+                Current Date: <span id="todaysdate"></span>
+            </p>
+        </footer>
+    <script src="responsive.js"></script>
+    <script src="banner.js"></script>
+    <script src="todaysdate.js"></script>
+    <script src="currentyear.js"></script>
+    <script src="java.js" defer></script>  
+    </body>
+    </html>
