@@ -67,85 +67,23 @@ main{
 		color: #4b4e6d;
 		text-align: center; 
 			}
-img { 
-    width: 250px; 
-    height: auto; 
-    margin: .5rem;
-    flex-direction: column;
-}
 
 figcaption {
     font-size: smaller;
     font-family: 'Josefin Sans', sans-serif;
+    display:flex;
+      color: #4b4e6d;
 }
-            /* hover effect */
-            .norm:hover {
+/* hover effect */
+ .norm:hover {
                 box-shadow: 0 0 50px #333;
             }
-	p {
-		font-family: 'Josefin Sans', sans-serif;
-		display:flex;
-      color: #4b4e6d;
-	  }
-	
-	.text-link { 
-	  font-size: 1.1em; 
-	}
-	
-    #sky-img{
-		width: 100%;
-		margin: auto;  
-    }
-    #road-img{
-        width:200px;
-        padding: 15px; 
-	    display: inline-block;
-    }
-	.preston-article {
-        border: 1px;
-    }
-    .forecast-section {
-        border: 1px;
-        display: flex;
-		font-family: 'Josefin Sans', sans-serif;
-	}
-		#sunny-img{
-		width: 100px;
-	    padding: 15px; 
-	    display: inline-block;
-	}
+            .container {
+                margin: 1rem auto; 
+                display:grid; 
+                grid-template-columns: 1fr 1fr 1fr;
+                 max-width: 1048px;}
 
-	
-#weather-summary{
-	position: absolute;
-	top: 10px;
-	left: 10px; 
-	background: #84dcc6;
-}
-	*{
-	box-sizing: border-box;
-}
-    .weather-now {
-        display: flex;
-        font-family: 'Josefin Sans', sans-serif;
-    }
-    .high{
-        display: flex;
-        font-family: 'Josefin Sans', sans-serif;
-    }
-    .humidity{
-        display: flex;
-        font-family: 'Josefin Sans', sans-serif;
-    }
-                    
-    .wind-speed{
-        display: flex;
-        font-family: 'Josefin Sans', sans-serif;
-    }
-
-	.full-width{
-	  width: 100%;
-	}
 	@media only screen and (max-width:600px)
 	{
 		nav ul{

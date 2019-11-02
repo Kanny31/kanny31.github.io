@@ -65,6 +65,21 @@ main{
     margin: auto; 
     justify-content: center; 
 }
+figcaption {
+    font-size: smaller;
+    font-family: 'Josefin Sans', sans-serif;
+    display:flex;
+      color: #4b4e6d;
+}
+/* hover effect */
+ .norm:hover {
+                box-shadow: 0 0 50px #333;
+            }
+            .container {
+                margin: 1rem auto; 
+                display:grid; 
+                grid-template-columns: 1fr;
+                 max-width: 262px;}
 	
 	h2 {
 		display:flex;

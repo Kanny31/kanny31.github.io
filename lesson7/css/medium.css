@@ -86,6 +86,22 @@ main{
 	  width: 48%;
       color: #4b4e6d;
       }
+
+      figcaption {
+        font-size: medium;
+        font-family: 'Josefin Sans', sans-serif;
+        display:flex;
+          color: #4b4e6d;
+    }
+    /* hover effect */
+     .norm:hover {
+                    box-shadow: 0 0 50px #333;
+                }
+                .container {
+                    margin: 1rem auto; 
+                    display:grid; 
+                    grid-template-columns: 1fr 1fr;
+                     max-width: 524px;}
 	
 	.text-link { 
 	  font-size: 1.1em; 

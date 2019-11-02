@@ -18,7 +18,8 @@
     margin-top: 8px;
     vertical-align: middle;
   }
-  h1 {
+  h2 {
     color: #4b4e6d;
     display: flex;
+    margin:auto;
 }
