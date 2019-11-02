@@ -20,11 +20,7 @@ nav {
 		li.active {
 			background-color: #6b7baa;
 		}
-header h1{
-	display: inline-block;
-	vertical-align: middle;
-	margin: 0;
-}	
+
 section.headings {
 	display: flex;
 	flex-direction: column; 
@@ -71,12 +67,21 @@ main{
 		color: #4b4e6d;
 		text-align: center; 
 			}
+img { 
+    width: 250px; 
+    height: auto; 
+    margin: .5rem;
+    flex-direction: column;
+}
 
-			h3 {
-				display:flex;
-				font-family: 'Anton', sans-serif;
-				color: #4b4e6d;
-					}
+figcaption {
+    font-size: smaller;
+    font-family: 'Josefin Sans', sans-serif;
+}
+            /* hover effect */
+            .norm:hover {
+                box-shadow: 0 0 50px #333;
+            }
 	p {
 		font-family: 'Josefin Sans', sans-serif;
 		display:flex;
