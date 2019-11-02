@@ -115,62 +115,7 @@ figcaption {
 	.text-link { 
 	  font-size: 1.1em; 
     }
-    .weather-section{
-        border: 1px;
-        display: flex; 
-        width: 48%
-    }
-    #sky-img{
-		width: 100%;
-		margin: auto; 
-    }
-    #road-img{
-        width:200px;
-        padding: 15px; 
-	    display: inline-block;
-    }
-	.preston-article {
-        border: 1px;
-    }
-    .forecast-section {
-        font-family: 'Josefin Sans', sans-serif;
-        width: 100px;
-	padding: 15px; 
-	display: inline-block;
-    }
 
-    #sunny-img{
-		width: 100px;
-	padding: 5px; 
-	display: inline-block;
-	}
-	
-    #weather-summary{
-        position: absolute;
-        top: 10px;
-        left: 10px; 
-        background: #84dcc6;
-    }
-	* { 
-        box-sizing: border-box;
-}
-    .weather-now {
-        display: flex;
-        font-family: 'Josefin Sans', sans-serif;
-    }
-    .high{
-        display: flex;
-        font-family: 'Josefin Sans', sans-serif;
-    }
-    .humidity{
-        display: flex;
-        font-family: 'Josefin Sans', sans-serif;
-    }
-                    
-    .wind-speed{
-        display: flex;
-        font-family: 'Josefin Sans', sans-serif;
-    }
 
 	.full-width{
 	  width: 100%;
