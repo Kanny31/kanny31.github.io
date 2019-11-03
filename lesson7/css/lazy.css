@@ -1,8 +1,8 @@
-  figure[data-src] {
+  image[data-src] {
     filter: blur(0.2em);
   }
   
-  figure {
+  image {
     filter: blur(0em);
     transition: filter 0.5s;
     width: 300px;

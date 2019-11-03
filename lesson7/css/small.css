@@ -65,7 +65,7 @@ main{
     margin: auto; 
     justify-content: center; 
 }
-figcaption {
+imgcaption {
     font-size: smaller;
     font-family: 'Josefin Sans', sans-serif;
     display:flex;
