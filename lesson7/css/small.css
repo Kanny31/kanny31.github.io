@@ -92,16 +92,19 @@ figcaption {
                     height: 400px; 
                     columns: 1fr;
 									}
-									image[data-src] {
+									img[data-src] {
 										filter: blur(0.2em);
 									}
 									
-									image {
-										filter: blur(0em);
-										transition: filter 0.5s;
-										width: 300px;
-										height: 400px; 
-										columns: 1fr 1fr 1fr;
+		img {
+		display: grid; 
+    filter: blur(0em);
+    transition: filter 0.5s;
+    width: 300px;
+    height: 400px; 
+		grid-template-columns: 1fr 1fr 1fr;
+		max-width: 1048px;
+		margin: auto; 
 									}
 	
 	h2 {

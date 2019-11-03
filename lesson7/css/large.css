@@ -67,17 +67,19 @@ main{
 		color: #4b4e6d;
 		text-align: center; 
 			}
-            image[data-src] {
+            img[data-src] {
                 filter: blur(0.2em);
               }
               
-              image {
+              img {
                 display: grid; 
                 filter: blur(0em);
                 transition: filter 0.5s;
                 width: 300px;
                 height: 400px; 
-                grid-template-columns: 1fr 1fr 1fr;
+				grid-template-columns: 1fr 1fr 1fr;
+				max-width: 1048px;
+				margin: auto; 
               }
 figcaption {
     font-size: smaller;
@@ -89,12 +91,6 @@ figcaption {
  .norm:hover {
 				box-shadow: 0 0 50px #333;
 			}
-
-			.container {
-				margin: 1rem auto; 
-				display:grid; 
-				grid-template-columns: 1fr 1fr 1fr;
-				 max-width: 1048px;}
 
 	@media only screen and (max-width:600px)
 	{
