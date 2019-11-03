@@ -86,37 +86,11 @@ main{
 	  width: 48%;
       color: #4b4e6d;
       }
-
-      figcaption {
-        font-size: medium;
-        font-family: 'Josefin Sans', sans-serif;
-        display:flex;
-          color: #4b4e6d;
-    }
-    /* hover effect */
-     .norm:hover {
-                    box-shadow: 0 0 50px #333;
-                }
-
-					  
-	img[data-src] {
-	filter: blur(0.2em);
-		}
-					  
-			img {
-				display: grid; 
-                filter: blur(0em);
-                transition: filter 0.5s;
-                width: 300px;
-                height: 400px; 
-				grid-template-columns: 1fr 1fr;
-				max-width: 524px;
-				margin: auto; 
-			}
+	
 	.text-link { 
 	  font-size: 1.1em; 
     }
-
+    
 	.full-width{
 	  width: 100%;
 	}
