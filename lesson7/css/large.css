@@ -20,7 +20,11 @@ nav {
 		li.active {
 			background-color: #6b7baa;
 		}
-
+header h1{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}	
 section.headings {
 	display: flex;
 	flex-direction: column; 
@@ -67,32 +71,26 @@ main{
 		color: #4b4e6d;
 		text-align: center; 
 			}
-			
-            img[data-src] {
-                filter: blur(0.2em);
-              }
-              
-              img {
-                display: grid; 
-                filter: blur(0em);
-                transition: filter 0.5s;
-                width: 300px;
-                height: 400px; 
-				grid-template-columns: 1fr 1fr 1fr;
-				max-width: 1048px;
-				margin: auto; 
-              }
-figcaption {
-    font-size: smaller;
-    font-family: 'Josefin Sans', sans-serif;
-    display:flex;
-      color: #4b4e6d;
-}
-/* hover effect */
- .norm:hover {
-				box-shadow: 0 0 50px #333;
-			}
 
+			h3 {
+				display:flex;
+				font-family: 'Anton', sans-serif;
+				color: #4b4e6d;
+					}
+	p {
+		font-family: 'Josefin Sans', sans-serif;
+		display:flex;
+      color: #4b4e6d;
+	  }
+	
+	.text-link { 
+	  font-size: 1.1em; 
+	}
+	
+
+	.full-width{
+	  width: 100%;
+	}
 	@media only screen and (max-width:600px)
 	{
 		nav ul{
