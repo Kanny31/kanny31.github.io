@@ -57,7 +57,12 @@ header {
 	body{
 				background-color: #95a3b3;
 				margin: 0;
-    }
+	}
+	
+	figcaption {font-size: large;}
+/* hover effect */
+.norm:hover {box-shadow: 0 0 50px #333;}
+
 main{
 	padding: 10px;
 	width: 100%; 

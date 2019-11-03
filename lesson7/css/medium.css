@@ -90,7 +90,9 @@ main{
 	.text-link { 
 	  font-size: 1.1em; 
     }
-    
+    figcaption {font-size: medium;}
+/* hover effect */
+.norm:hover {box-shadow: 0 0 50px #333;}
 	.full-width{
 	  width: 100%;
 	}
