@@ -90,34 +90,7 @@ main{
 	.text-link { 
 	  font-size: 1.1em; 
 	}
-	image[data-src] {
-		filter: blur(0.2em);
-		display: grid; 
-		grid-template-columns: 1fr 1fr;
-		columns: 1fr 1fr;
-	  }
-	  
-	  image {
-		filter: blur(0em);
-		transition: filter 0.5s;
-		width: 300px;
-		height: 400px; 
-		columns: 1fr 1fr;
-		display: grid; 
-		grid-template-columns: 1fr 1fr;
-	  }
-	  .column {
-		flex: 50%;
-		padding: 0 4px;
-		display: grid;
-		grid-template-columns: 1fr 1fr;
 	
-	  }
-	  
-	  .column img {
-		margin-top: 8px;
-		vertical-align: auto;
-	  }
     figcaption {font-size: medium;}
 /* hover effect */
 .norm:hover {box-shadow: 0 0 50px #333;}
