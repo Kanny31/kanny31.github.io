@@ -52,7 +52,6 @@ header {
 	width: 100px;
 	padding: 15px; 
 	display: inline-block;
-
 }
 	body{
 				background-color: #95a3b3;
@@ -86,6 +85,31 @@ main{
 		font-family: 'Josefin Sans', sans-serif;
 		display:flex;
       color: #4b4e6d;
+	  }
+	  image[data-src] {
+		filter: blur(0.2em);
+	  }
+	  
+	  image {
+		filter: blur(0em);
+		transition: filter 0.5s;
+		width: 300px;
+		height: 400px; 
+		columns: 1fr 1fr 1fr;
+		display: grid; 
+		grid-template-columns: 1fr 1fr 1fr
+	  }
+	  .column {
+		flex: 50%;
+		padding: 0 4px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr
+	
+	  }
+	  
+	  .column img {
+		margin-top: 8px;
+		vertical-align: auto;
 	  }
 	
 	.text-link { 
