@@ -7,7 +7,7 @@
     transition: filter 0.5s;
     width: 300px;
     height: 400px; 
-    columns: auto;
+    columns: 1fr 1fr 1fr;
   }
   .column {
     flex: 50%;
@@ -16,7 +16,7 @@
   
   .column img {
     margin-top: 8px;
-    vertical-align: middle;
+    vertical-align: auto;
   }
   h2 {
     color: #4b4e6d;
