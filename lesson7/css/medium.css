@@ -107,13 +107,25 @@ main{
                         filter: blur(0.2em);
                       }
                       
-                      figure {
-                        filter: blur(0em);
-                        transition: filter 0.5s;
-                        width: 300px;
-                        height: 400px; 
-                        columns: 1fr 1fr 1fr;
-                      }
+    figure {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    width: 300px;
+    height: 400px; 
+	columns: 1fr 1fr 1fr;
+}
+					  
+					  image[data-src] {
+						filter: blur(0.2em);
+					  }
+					  
+					  image {
+						filter: blur(0em);
+						transition: filter 0.5s;
+						width: 300px;
+						height: 400px; 
+						columns: 1fr 1fr 1fr;
+					  }
 	.text-link { 
 	  font-size: 1.1em; 
     }

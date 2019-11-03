@@ -65,7 +65,7 @@ main{
     margin: auto; 
     justify-content: center; 
 }
-imgcaption {
+figcaption {
     font-size: smaller;
     font-family: 'Josefin Sans', sans-serif;
     display:flex;
@@ -91,7 +91,18 @@ imgcaption {
                     width: 300px;
                     height: 400px; 
                     columns: 1fr;
-                  }
+									}
+									image[data-src] {
+										filter: blur(0.2em);
+									}
+									
+									image {
+										filter: blur(0em);
+										transition: filter 0.5s;
+										width: 300px;
+										height: 400px; 
+										columns: 1fr 1fr 1fr;
+									}
 	
 	h2 {
 		display:flex;
