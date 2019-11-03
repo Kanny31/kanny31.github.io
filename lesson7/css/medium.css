@@ -97,27 +97,10 @@ main{
      .norm:hover {
                     box-shadow: 0 0 50px #333;
                 }
-                .container {
-                    margin: 1rem auto; 
-                    display:grid; 
-                    grid-template-columns: 1fr 1fr;
-                     max-width: 524px;}
-
-                     figure[data-src] {
-                        filter: blur(0.2em);
-                      }
-                      
-    figure {
-    filter: blur(0em);
-    transition: filter 0.5s;
-    width: 300px;
-    height: 400px; 
-	columns: 1fr 1fr 1fr;
-}
 					  
-					  img[data-src] {
-						filter: blur(0.2em);
-					  }
+	img[data-src] {
+	filter: blur(0.2em);
+		}
 					  
 			img {
 				display: grid; 
