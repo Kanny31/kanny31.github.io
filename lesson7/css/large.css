@@ -67,16 +67,17 @@ main{
 		color: #4b4e6d;
 		text-align: center; 
 			}
-            img[data-src] {
+            figure[data-src] {
                 filter: blur(0.2em);
               }
               
-              img {
+              figure {
+                display: grid; 
                 filter: blur(0em);
                 transition: filter 0.5s;
                 width: 300px;
                 height: 400px; 
-                columns: auto;
+                grid-template-columns: 1fr 1fr 1fr;
               }
 figcaption {
     font-size: smaller;

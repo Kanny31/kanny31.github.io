@@ -102,17 +102,17 @@ main{
                     display:grid; 
                     grid-template-columns: 1fr 1fr;
                      max-width: 524px;}
-                     
-                     img[data-src] {
+
+                     figure[data-src] {
                         filter: blur(0.2em);
                       }
                       
-                      img {
+                      figure {
                         filter: blur(0em);
                         transition: filter 0.5s;
                         width: 300px;
                         height: 400px; 
-                        columns: auto;
+                        columns: 1fr 1fr 1fr;
                       }
 	.text-link { 
 	  font-size: 1.1em; 
