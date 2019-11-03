@@ -67,6 +67,7 @@ main{
 		color: #4b4e6d;
 		text-align: center; 
 			}
+			
             img[data-src] {
                 filter: blur(0.2em);
               }
