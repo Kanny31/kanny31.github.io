@@ -91,17 +91,6 @@ figcaption {
  .norm:hover {
 				box-shadow: 0 0 50px #333;
 			}
-			.column {
-				float: left;
-				width: 33.33%;
-			  }
-
-			  /* Clear floats after the columns */
-			  .row:after {
-				content: "";
-				display: table;
-				clear: both;
-			  }
 
 	@media only screen and (max-width:600px)
 	{
