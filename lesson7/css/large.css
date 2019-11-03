@@ -88,6 +88,9 @@ main{
 	  }
 	  image[data-src] {
 		filter: blur(0.2em);
+		display: grid; 
+		grid-template-columns: 1fr 1fr 1fr;
+		columns: 1fr 1fr 1fr;
 	  }
 	  
 	  image {
