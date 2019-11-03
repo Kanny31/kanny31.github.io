@@ -79,7 +79,7 @@ main{
                 height: 400px; 
                 grid-template-columns: 1fr 1fr 1fr;
               }
-imgcaption {
+figcaption {
     font-size: smaller;
     font-family: 'Josefin Sans', sans-serif;
     display:flex;
@@ -89,6 +89,12 @@ imgcaption {
  .norm:hover {
 				box-shadow: 0 0 50px #333;
 			}
+
+			.container {
+				margin: 1rem auto; 
+				display:grid; 
+				grid-template-columns: 1fr 1fr 1fr;
+				 max-width: 1048px;}
 
 	@media only screen and (max-width:600px)
 	{
