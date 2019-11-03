@@ -97,6 +97,7 @@ main{
      .norm:hover {
                     box-shadow: 0 0 50px #333;
                 }
+
 					  
 	img[data-src] {
 	filter: blur(0.2em);
@@ -119,13 +120,9 @@ main{
 	.full-width{
 	  width: 100%;
 	}
-	@media only screen and (max-width: 600px) {
-		.column {
-		  width: 100%;
-		}
-	  }
-		
+	@media only screen and (max-width:600px)
+	{
 		nav ul{
 			flex-direction:column;
 		}
-    
+    }
