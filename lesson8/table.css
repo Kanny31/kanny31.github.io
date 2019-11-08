@@ -2,7 +2,6 @@ thead {
     font-family: Ubuntu, sans-serif;
     background-color: #e7f0ed;
     font-size: 12px;
-    display: table-row; 
 }
 
 tbody {
@@ -11,13 +10,6 @@ tbody {
     display: table-cell;
     vertical-align: baseline;
     font-size: 9px;
-    border-collapse: separate; 
-    line-height: normal;
-    font-weight: normal; 
-    tab-size: 4; 
-    border-spacing: 0px; 
-    font-variant: normal; 
-    font-family: Ubuntu, sans-serif;
 }
 
 tr {
@@ -27,7 +19,6 @@ tr {
     vertical-align: inherit;
     font-family: Ubuntu, sans-serif;
 }
-.other-td {
+.other-td{
     background-color: #7fb9c2;
-    font-family: Ubuntu, sans-serif;
 }
