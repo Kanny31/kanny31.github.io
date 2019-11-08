@@ -2,6 +2,7 @@ thead {
     font-family: Ubuntu, sans-serif;
     background-color: #e7f0ed;
     font-size: 12px;
+    text-align: center; 
 }
 
 td{
