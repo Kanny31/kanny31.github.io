@@ -28,6 +28,14 @@ tr {
     font-family: Ubuntu, sans-serif;
     width: 31px; 
 }
+
+th {
+    background-color: #628ca6;
+    color: white; 
+    display: table-row;
+    vertical-align: inherit;
+    font-family: Ubuntu, sans-serif;
+}
 .other-td{
     background-color: #7fb9c2;
 }
