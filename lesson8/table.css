@@ -27,3 +27,18 @@ tr {
 .other-td{
     background-color: #7fb9c2;
 }
+
+table{ 
+    border-collapse: separate; 
+    white-space: pre-wrap;
+    line-height: normal; 
+    font-weight: normal; 
+    font-style: normal; 
+    text-align: start; 
+    word-break: break-word;
+    font-family: ubutu, sans-serif; 
+    tab-size: 4; 
+    border-spacing: 0px;
+    font-variant: normal; 
+
+}
