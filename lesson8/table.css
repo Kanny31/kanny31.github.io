@@ -15,6 +15,9 @@ tbody {
 tr {
     background-color: #628ca6;
     color: white; 
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit; 
 }
 .other-td{
     background-color: #7fb9c2;
