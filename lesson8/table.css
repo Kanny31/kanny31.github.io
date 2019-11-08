@@ -6,7 +6,7 @@ thead {
     color: black;
 }
 
-td{
+td {
     display:table-cell;
     vertical-align: baseline;
     background-color: #e7ffed;
