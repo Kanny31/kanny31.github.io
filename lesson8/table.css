@@ -1,14 +1,18 @@
-tr {
+thead {
     font-family: Ubuntu, sans-serif;
     background-color: #e7f0ed;
+    font-size: 12px;
 }
 
-td {
+tbody {
     background-color: #e7ffed;
     color: black;
+    display: table-cell;
+    vertical-align: baseline;
+    font-size: 9px
 }
 
-th {
+tr {
     background-color: #628ca6;
     color: white; 
 }
