@@ -1,0 +1,17 @@
+tr {
+    font-family: Ubuntu, sans-serif;
+    background-color: #e7f0ed;
+}
+
+td {
+    background-color: #e7ffed;
+    color: black;
+}
+
+th {
+    background-color: #628ca6;
+    color: white; 
+}
+.other-td{
+    background-color: #7fb9c2;
+}
