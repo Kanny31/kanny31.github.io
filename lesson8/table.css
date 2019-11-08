@@ -20,15 +20,6 @@ tbody {
     font-size: 10px;
 }
 
-tr {
-    background-color: #628ca6;
-    color: white; 
-    display: table-row;
-    vertical-align: inherit;
-    font-family: Ubuntu, sans-serif;
-    width: 31px; 
-}
-
 th {
     background-color: #628ca6;
     color: white; 
