@@ -23,22 +23,8 @@ tr {
     display: table-row;
     vertical-align: inherit;
     font-family: Ubuntu, sans-serif;
+    width: 31px; 
 }
 .other-td{
     background-color: #7fb9c2;
-}
-
-table{ 
-    border-collapse: separate; 
-    white-space: pre-wrap;
-    line-height: normal; 
-    font-weight: normal; 
-    font-style: normal; 
-    text-align: start; 
-    word-break: break-word;
-    font-family: ubutu, sans-serif; 
-    tab-size: 4; 
-    border-spacing: 0px;
-    font-variant: normal; 
-
 }
