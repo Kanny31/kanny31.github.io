@@ -4,12 +4,17 @@ thead {
     font-size: 12px;
 }
 
+td{
+    display:table-cell;
+    vertical-align: baseline;
+}
+
 tbody {
     background-color: #e7ffed;
     color: black;
     display: table-cell;
     vertical-align: baseline;
-    font-size: 9px;
+    font-size: 10px;
 }
 
 tr {
