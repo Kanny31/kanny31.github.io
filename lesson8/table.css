@@ -8,6 +8,8 @@ thead {
 td{
     display:table-cell;
     vertical-align: baseline;
+    background-color: #e7ffed;
+    color: black; 
 }
 
 tbody {
