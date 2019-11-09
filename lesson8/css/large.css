@@ -105,7 +105,7 @@ main{
         color: #3E5C76;
     }
     form fieldset label.req{
-            color: rgb(167, 73, 73);
+            color: rgb(111, 93, 145);
     }
 	form fieldset input.req{
         background-color:#f7dcdc;
@@ -114,7 +114,7 @@ main{
         font-size:1rem;
         display:block;
         border: 1px solid #ccc;
-        background-color: rgb(240, 239, 239);
+        background-color: rgb(226, 237, 241);
         border-radius: 2px;
         height: 2.5rem;
         width: 50%;
