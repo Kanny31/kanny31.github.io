@@ -1,0 +1,39 @@
+@media only screen and (max-width:850px)
+{
+    .navigation li, #forecast-section, #forecast-header, #contact-section img{
+        display: none;
+    }
+    h1{
+        font-size: 25px;
+    }
+    #header-img{
+        width:100px;
+    }
+    #slogan{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    .responsive li{
+        display:block;
+        padding:5px;
+    }
+    ul.responsive{
+        flex-direction: column;
+        text-align:center;
+        padding: 5px;
+    }
+   form label, form input{
+       padding: .75rem;
+   }
+   form input.btn{
+       padding-bottom: 35px;
+       transition: background-color .25s;
+   }
+   form input.btn:active{
+       background-color: rgb(167, 73, 73);
+       box-shadow: 10px 10px 15px grey;
+   }
+   
+}
