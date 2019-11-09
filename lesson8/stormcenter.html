@@ -56,7 +56,7 @@
         <form method="get" action="thanks.html">
         <fieldset>
             <legend>
-                Who's Reporting?
+                Personal Information
             </legend>
             <label class="info req">*First & Last Name: <input class="req" type="text" name="flname" required pattern="[A-Za-z].{6,}"></label>
             <label class="info req">*Phone Number:<input class="req" type="tel" name="phone" required></label>
@@ -65,7 +65,7 @@
         </fieldset>
         <fieldset>
             <legend>
-                Report Storm Information
+                Information about storm
             </legend>
             <label class="storm">Date:<input type="date" name="date"></label>
             <label class="storm">Storm Type:<input list="storms" id="stormtype" name="stormtype">
@@ -94,26 +94,26 @@
             </datalist>
             <label class="storm"> Storm Region:<select name="region">
                 <option disabled>Select Region</option>
-                <option value="Fish Haven">Fish Haven</option>
                 <option value="Preston">Preston</option>
                 <option value="Soda Springs">Soda Springs</option>
+                <option value="Fish Haven">Fish Haven</option>
             </select>
             </label>
              <div>
             <label class="storm">Are You in Danger?<br>
                     Yes<input class="storm radio" type="radio" name="danger" value="danger">
                     </label>    
-                    <label>No<input  class="storm radio" type="radio" name="danger" value="nodanger">
-                    </label>
                     <label>Maybe<input  class="storm radio" type="radio" name="danger" value="maybedanger">
+                    </label>
+                    <label>No<input  class="storm radio" type="radio" name="danger" value="nodanger">
                     </label>
             </div>
         </fieldset> 
         <fieldset>
             <legend>
-                Additional Information or Comments
+                Additional Information/Comments
             </legend>
-            <label class="end">Details:<textarea name="comments" rows="10" cols="120"></textarea>
+            <label class="end">Details:<textarea name="comments" rows="12" cols="125"></textarea>
             </label>
         </fieldset>
             <label id="submit">
@@ -135,3 +135,5 @@
     <script src="js/range.js"></script>     
     </body>
     </html>
+    
+    /!citation: Mckenzie Lewsis!/ 
