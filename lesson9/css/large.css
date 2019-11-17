@@ -126,6 +126,17 @@ main div.towns div img {
     width:80%;
     margin-left: 10%;
 }
+
+.wireframes {
+    font-size: 1.5rem;
+    padding: 10px;
+    display: grid;
+}
+
+.wireframes a {
+    color: white;
+    padding: 5px 5px 0px 5px;
+}
     @media only screen and (max-width:900px)
 	{
 		nav ul{
@@ -133,4 +144,4 @@ main div.towns div img {
 		}
     }
 
-    /* citation: help from classmate Mckenzie Lewsis */  
+    /* citation: help from classmate Mckenzie Lewsis and Ramsey Harris*/  
