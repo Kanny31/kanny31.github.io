@@ -27,8 +27,20 @@ for (let i = 0; i < towns.length; i++ ) {
     pop.textContent = 'Population: ' + towns[i].currentPopulation;
     rain.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + 'in.';
    
-    image.setAttribute('src', towns[i].photo);
-    image.setAttribute('alt', towns[i].name);
+    if (i == 1) {
+        image.setAttribute('src', "images/towns/farmhouse.jpeg");
+        image.setAttribute('alt', "Picture of a Farm House");
+        a.appendChild(h2);
+    } else if (i == 4) {
+        image.setAttribute('src', "images/towns/woodenbarn.jpeg");
+        image.setAttribute('alt', "Picture of a Barn");
+        a.setAttribute('href', "preston-7.html");
+        a.appendChild(h2);
+    } else {
+        image.setAttribute('src', "images/towns/woodenstructure.jpeg");
+        image.setAttribute('alt', "Picture of a Wooden Structure");
+        a.appendChild(h2);
+    }
     
     card.appendChild(h2);
     card.appendChild(motto);
@@ -39,8 +51,8 @@ for (let i = 0; i < towns.length; i++ ) {
   
     document.querySelector('div.towns').appendChild(card);
    }
-   
-  
     
 }
 });
+
+/* citation: Mckenzie Lewis and Ramsy harris
