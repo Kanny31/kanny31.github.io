@@ -28,15 +28,15 @@ for (let i = 0; i < towns.length; i++ ) {
     rain.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + 'in.';
    
     if (i == 1) {
-        image.setAttribute('src', "towns/https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/towns/clouds-country-countryside-dirt-road-461755.jpg");
+        image.setAttribute('src', "https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/towns/clouds-country-countryside-dirt-road-461755.jpg");
         image.setAttribute('alt', "Picture of Farm house");
         a.appendChild(h2);
     } else if (i == 4) {
-        image.setAttribute('src', "towns/https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/towns/herd-of-cattle-in-daytime-841303.jpg");
+        image.setAttribute('src', "https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/towns/herd-of-cattle-in-daytime-841303.jpg");
         image.setAttribute('alt', "Picture of cows");
         a.appendChild(h2);
     } else {
-        image.setAttribute('src', "towns/https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/towns/green-grass-field-during-day-time-206893.jpg");
+        image.setAttribute('src', "https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/towns/green-grass-field-during-day-time-206893.jpg");
         image.setAttribute('alt', "Picture of field");
         a.appendChild(h2);
     }
