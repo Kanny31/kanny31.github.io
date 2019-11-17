@@ -27,8 +27,14 @@ for (let i = 0; i < towns.length; i++ ) {
     pop.textContent = 'Population: ' + towns[i].currentPopulation;
     rain.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + 'in.';
    
-    image.setAttribute('src', towns[i].photo);
-    image.setAttribute('alt', towns[i].name);
+    image.setAttribute('src', "https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/fishhaven.jpg");
+    image.setAttribute('alt', "fishhaven");
+
+    image.setAttribute('src', "https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/fishhaven.jpg");
+    image.setAttribute('alt', "preston");
+
+    image.setAttribute('src', "https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/fishhaven.jpg");
+    image.setAttribute('alt', "sodasprings");
     
     card.appendChild(h2);
     card.appendChild(motto);
