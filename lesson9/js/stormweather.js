@@ -1,5 +1,4 @@
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-
 fetch(requestURL)
 
     .then(function (response){
@@ -27,20 +26,19 @@ for (let i = 0; i < towns.length; i++ ) {
     pop.textContent = 'Population: ' + towns[i].currentPopulation;
     rain.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + 'in.';
    
-    if (i == 1) {
-        image.setAttribute('src', "https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/towns/clouds-country-countryside-dirt-road-461755.jpg");
-        image.setAttribute('alt', "Picture of Farm house");
-        a.appendChild(h2);
-    } else if (i == 4) {
-        image.setAttribute('src', "https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/towns/herd-of-cattle-in-daytime-841303.jpg");
-        image.setAttribute('alt', "Picture of cows");
-        a.appendChild(h2);
-    } else {
-        image.setAttribute('src', "https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/towns/green-grass-field-during-day-time-206893.jpg");
-        image.setAttribute('alt', "Picture of field");
-        a.appendChild(h2);
+    if (i== "Fish Haven") {
+    image.setAttribute('src',"https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/towns/herd-of-cattle-in-daytime-841303.jpg";
+    image.setAttribute('alt', towns[i]."Fish Haven");
     }
-    
+    else if (i== "Soda Springs") {
+    image.setAttribute('src',"https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/towns/clouds-country-countryside-dirt-road-461755.jpg";
+    image.setAttribute('alt', towns[i]."Soda Springs");
+    }
+
+    else { 
+    image.setAttribute('src',"https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/towns/green-grass-field-during-day-time-206893.jpg";
+    image.setAttribute('alt', towns[i]."Preston");
+    }
     card.appendChild(h2);
     card.appendChild(motto);
     card.appendChild(year);
@@ -50,8 +48,11 @@ for (let i = 0; i < towns.length; i++ ) {
   
     document.querySelector('div.towns').appendChild(card);
    }
+   
+  
     
 }
 });
+
 
 /* citation: Mckenzie Lewis and Ramsy harris
