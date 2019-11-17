@@ -26,19 +26,9 @@ for (let i = 0; i < towns.length; i++ ) {
     pop.textContent = 'Population: ' + towns[i].currentPopulation;
     rain.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + 'in.';
    
-    if (i== "Fish Haven") {
-    image.setAttribute('src',"https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/towns/herd-of-cattle-in-daytime-841303.jpg";
-    image.setAttribute('alt', towns[i]."Fish Haven");
-    }
-    else if (i== "Soda Springs") {
-    image.setAttribute('src',"https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/towns/clouds-country-countryside-dirt-road-461755.jpg";
-    image.setAttribute('alt', towns[i]."Soda Springs");
-    }
-
-    else { 
-    image.setAttribute('src',"https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson9/towns/green-grass-field-during-day-time-206893.jpg";
-    image.setAttribute('alt', towns[i]."Preston");
-    }
+    image.setAttribute('src', towns[i].photo);
+    image.setAttribute('alt', towns[i].name);
+    
     card.appendChild(h2);
     card.appendChild(motto);
     card.appendChild(year);
@@ -53,6 +43,3 @@ for (let i = 0; i < towns.length; i++ ) {
     
 }
 });
-
-
-/* citation: Mckenzie Lewis and Ramsy harris
