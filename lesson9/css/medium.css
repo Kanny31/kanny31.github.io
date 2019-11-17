@@ -1,0 +1,40 @@
+@media only screen and (max-width:850px)
+{
+    .navigation li,{
+        display: none;
+    }
+    h1{
+        font-size: 25px;
+    }
+    #main-logo{
+        width:100px;
+    }
+    #slogan{
+        font-size: 10px;
+    }
+    .responsive li{
+        display:block;
+        padding:5px;
+    }
+    ul.responsive{
+        flex-direction: column;
+        text-align:center;
+        padding: 5px;
+    }
+    main div.towns{
+    display:flex;
+    flex-direction:column;
+}
+    main div.towns div{
+        display:flex;
+        flex-direction:row;
+    }
+    main div.towns div:nth-child(odd){
+        flex-direction: row-reverse;
+    }
+    main div.towns div img{
+        width: 40%;
+    }
+
+
+}
