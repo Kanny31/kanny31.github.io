@@ -31,7 +31,7 @@
                 <li class= "active">
                     <a href="/lesson9.index.html">Home</a>
                 </li>
-                <li>
+                <li class= "active">
                     <a href="/lesson6/lesson6.html">Preston</a>
                 </li>
                 <li>
@@ -52,13 +52,16 @@
         <h2 id="preston-heading">
             Preston Town
         </h2>
-        <picture id= sky-img>
-                <source srcset="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/small_skyview.jpeg" media="(min-width:37.49em) and (max-width:59.9em)">
+        <div id="div-one">
+            <section id="hero-section"></section>
+        <picture id= hero-pic>
+                <source id= "hero-img" srcset="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/small_skyview.jpeg" media="(min-width:37.49em) and (max-width:59.9em)">
                 <source srcset="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/medium_skyview.jpeg" media="(min-width:60em)">
                 <img src="lesson6/large_skyview.jpeg" alt="Hero Banner">
               </picture>
+            </section>
     <div id="weather-summary">
-        <h3>
+        <h3 id="weather-heading">
             Weather Summary
         </h3>
         <p>
@@ -74,7 +77,8 @@
             Wind Speed: <span id="wind-speed">2mph</span>
         </p>
 </div>
-<h2>
+</div>
+<h2 id= "forecast-header">
     5 Day Forecast
 </h2>
         <table id= "forecast-section"> 
@@ -137,7 +141,6 @@
     <script src="../todaysdate.js"></script>
     <script src="../date.js"></script>
     <script src="../windchill.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="../webfontload.js"></script>
 </body>
 </html>

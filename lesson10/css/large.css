@@ -1,0 +1,156 @@
+*{
+    box-sizing:border-box;
+}
+nav { 
+	background-color: #84dcc6; 
+	  font-size: 1.2em;
+	  padding:1em;
+	  color: #4b4e6d;
+	}
+	
+	nav ul{
+	  display:flex;
+		margin:auto;
+		padding-left:0px;
+		justify-content: center;
+		color: #4b4e6d;
+		list-style-type: none;
+	}
+		nav li: hover {
+			display: inline;
+			background: #4b4e6d;
+		}
+		li.active {
+			background-color: #6b7baa;
+		}
+header h1{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}	
+section.headings {
+	display: flex;
+	flex-direction: column; 
+	align-items: center; 
+	justify-content: center;
+	text-align: center; 
+	margin: auto; 
+}
+header {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+	nav a { 
+	color:#4b4e6d;
+	text-decoration: none;
+	padding: 15px;
+	}
+	.text-link { 
+		font-size: 1.1em; 
+		color: #4b4e6d;
+	  }
+
+#main-logo {
+	width: 100px;
+	padding: 15px; 
+	display: inline-block;
+}
+	body{
+				background-color: #95a3b3;
+				margin: 0;
+	}
+
+main{
+	padding: 10px;
+	width: 100%; 
+	margin: auto;
+	justify-content: center;
+}
+	
+	h1 {
+		display:flex;
+		font-family: 'Anton', sans-serif;
+		color: #4b4e6d;
+		text-align: center; 
+            }
+            h3 {
+				display:flex;
+				font-family: 'Anton', sans-serif;
+				color: #4b4e6d;
+                    }
+                    h2 {
+                        display:flex;
+                        font-family: 'Anton', sans-serif;
+                        color: #4b4e6d;
+                        text-align: center; 
+                            }
+                            #div-one{
+                                position: relative;
+                            }
+                            #hero-section{
+                                background-color:#ffffff;
+                                border:none; 
+                            }
+                            #hero-img{
+                                width:100%;
+                                margin-top:10px;
+                            }
+                            
+     #forecast-section{
+         display:flex;
+        flex-direction: row;
+      border-radius: 6px;
+        }
+        #road-img{
+            height: 10em;
+            float: left;
+            margin: 3%;
+        }
+        footer{
+            background-color: #0d1321;
+            color: #F0ebd8;
+            padding:10px;
+            margin:auto;
+            font-family: 'Noto Sans', sans-serif;
+            text-align: center;
+        }
+        main footer{
+            max-width: 800px;
+        }
+        #weather{
+            text-transform: capitalize;
+        }
+
+        .forecast{
+            padding:10px;
+        }
+        .forcast-days{
+           padding-bottom:5px;
+           margin:3px;
+        }
+        div{
+            padding:5px;
+        }
+        .sun-icon{
+            display: flex;
+            justify-content: center;
+        }
+	p {
+		font-family: 'Josefin Sans', sans-serif;
+		display:flex;
+      color: #4b4e6d;
+	  }
+	
+	.text-link { 
+	  font-size: 1.1em; 
+    }
+
+    @media only screen and (max-width:900px)
+	{
+		nav ul{
+			flex-direction:column;
+		}
+    }
+
+    /* citation: help from classmate Mckenzie Lewsis and Ramsey Harris*/ 

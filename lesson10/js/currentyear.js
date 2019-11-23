@@ -10,7 +10,7 @@ let daynames = [
   
   let months = [
     "January",
-    "Febuary",
+    "February",
     "March",
     "April",
     "May",
@@ -27,8 +27,10 @@ let daynames = [
   let monthName = months[d.getMonth()];
   let fulldate = dayName + ", "+ monthName + " " + d.getDate()
   + ", " + d.getFullYear();
-
+  
   document.getElementById("current-year").innerHTML = d.getFullYear();
-
+  
   let lastModified = document.lastModified;
   document.getElementById("last-modified").innerHTML = lastModified;
+
+/* citation: Mckenzie Lewsis */ 
