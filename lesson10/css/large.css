@@ -135,6 +135,7 @@ main{
         .sun-icon{
             display: flex;
             justify-content: center;
+            width: 100%;
         }
 	p {
 		font-family: 'Josefin Sans', sans-serif;
