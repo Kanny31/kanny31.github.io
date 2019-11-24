@@ -23,7 +23,14 @@ nav {
 		li.active {
 			background-color: #6b7baa;
         }
-        
+        main section{
+            border:1px solid #0d1321;
+            border-radius: 6px;
+            color:#1D2D44;
+            padding: 5px;
+            justify-content: center;
+            margin:20px;
+        }
         #weather-summary{
             position: absolute;
             padding:15px;
