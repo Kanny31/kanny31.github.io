@@ -40,10 +40,10 @@ nav {
             left:60px;
             border: 0px;
             border-radius: 3px;
-            background-color: rgba(65, 98, 104, 0.95);
+            background-color: rgba(129, 78, 71, 0.95);
             color:#F0ebd8;
             font-size: .65rem;
-            box-shadow: 5px 5px 20px #1D2D44;
+            box-shadow: 5px 5px 20px rgb(110, 78, 48);
         }
         #weather-heading{
             margin:0;
