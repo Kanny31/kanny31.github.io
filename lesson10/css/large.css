@@ -22,7 +22,30 @@ nav {
 		}
 		li.active {
 			background-color: #6b7baa;
-		}
+        }
+        
+        #weather-summary{
+            position: absolute;
+            padding:15px;
+            width:30%;
+            height:70%;
+            top:60px;
+            left:60px;
+            border: 0px;
+            border-radius: 3px;
+            background-color: rgba(65, 98, 104, 0.95);
+            color:#F0ebd8;
+            font-size: .65rem;
+            box-shadow: 5px 5px 20px #1D2D44;
+        }
+        #weather-heading{
+            margin:0;
+            text-align: center;
+            padding:5px;
+            text-decoration: underline;
+            color:#F0ebd8;
+            font-size: .85rem;
+         }
 header h1{
 	display: inline-block;
 	vertical-align: middle;
