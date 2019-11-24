@@ -28,6 +28,12 @@ header h1{
 	vertical-align: middle;
 	margin: 0;
 }	
+.preston-article {
+    border: 1px;
+    display: inline-block; 
+    vertical-align: middle; 
+    margin: auto;
+}
 section.headings {
 	display: flex;
 	flex-direction: column; 
@@ -108,9 +114,11 @@ main{
 
         #road-img{
             height: 10em;
-            float: left;
+            float: auto;
             margin: 3%;
+            display: inline-block; 
         }
+
         footer{
             background-color: #0d1321;
             color: #F0ebd8;
