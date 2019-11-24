@@ -31,7 +31,7 @@
                 <li class= "active">
                     <a href="/lesson9.index.html">Home</a>
                 </li>
-                <li class= "active">
+                <li>
                     <a href="/lesson6/lesson6.html">Preston</a>
                 </li>
                 <li>
@@ -53,34 +53,34 @@
             Preston Town
         </h2>
         <div id="div-one">
-            <section id="hero-section"></section>
+            <section id="hero-section">
         <picture id= hero-pic>
                 <source id= "hero-img" srcset="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/small_skyview.jpeg" media="(min-width:37.49em) and (max-width:59.9em)">
                 <source srcset="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/medium_skyview.jpeg" media="(min-width:60em)">
-                <img src="lesson6/large_skyview.jpeg" width ="100%" alt="Hero Banner">
+                <img src="lesson6/large_skyview.jpeg" width ="100" alt="Hero Banner">
               </picture>
             </section>
-    <div id="weather-summary">
-        <h3 id="weather-heading">
-            Weather Summary
-        </h3>
-        <p>
-            Current Temperature: <span>Cloudy</span>
-        </p>
-        <p>
-            High: <span id="high">75&#176;F</span> 
-        </p>
-        <p>
-            Humidity: <span id="humidity">15&#37;</span>
-        </p>
-        <p>
-            Wind Speed: <span id="wind-speed">2mph</span>
-        </p>
-        <p>
-                Wind-Chill: <span id="windchill">&#176;F</span>&#176;F
-            </p>
-</div>
-</div>
+            <div id="weather-summary">
+                    <h5 id="weather-heading">
+                        Weather Summary:
+                    </h5>
+                    <p>
+                        Weather Now: <span id="weather"></span>
+                    </p>
+                    <p>
+                        High: <span id="high"></span> 
+                    </p>
+                    <p>
+                        Humidity: <span id="humidity"></span>&#37;
+                    </p>
+                    <p>
+                        Wind Speed: <span id="speed"></span> mph
+                    </p>
+                    <p>
+                        Wind-Chill: <span id="windchill">&#176;F</span>&#176;F
+                    </p>
+                </div>
+             </div>
 <h2 id= "forecast-header">
     5 Day Forecast
 </h2>
@@ -93,20 +93,19 @@
                   <td class="weatherDays">Friday</td>
                 </tr>
                 <tr id= "sun-icon">
-                  <td><h2>79°</h2> <br><img src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/iconfinder_54_Sun_183467.png" height = "10px" width = "10px" alt="sunny"></td>
-                  <td><h2>83°</h2> <br><img src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/iconfinder_54_Sun_183467.png"  height = "10px" width = "10px"alt="sunny"></td>
-                  <td><h2>94°</h2> <br><img src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/iconfinder_54_Sun_183467.png" height = "10px" width = "10px" alt="sunny"></td>
-                  <td><h2>82°</h2> <br><img src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/iconfinder_54_Sun_183467.png" height = "10px" width = "10px" alt="sunny"></td>
-                  <td><h2>61°</h2> <br><img src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/iconfinder_54_Sun_183467.png" height = "10px" width = "10px" alt="sunny"></td>
+                  <td><h2>79°</h2> <br><img src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/iconfinder_54_Sun_183467.png" height = "10" width = "10" alt="sunny"></td>
+                  <td><h2>83°</h2> <br><img src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/iconfinder_54_Sun_183467.png"  height = "10" width = "10"alt="sunny"></td>
+                  <td><h2>94°</h2> <br><img src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/iconfinder_54_Sun_183467.png" height = "10" width = "10" alt="sunny"></td>
+                  <td><h2>82°</h2> <br><img src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/iconfinder_54_Sun_183467.png" height = "10" width = "10" alt="sunny"></td>
+                  <td><h2>61°</h2> <br><img src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson6/iconfinder_54_Sun_183467.png" height = "10" width = "10" alt="sunny"></td>
                 </tr>
               </table>
               <!-- Citation: HTML help from classmate Jonathan lundquist -->
-        </section>
         <section id="preston-article">
                 <h3>
                     Article of the Day
                 </h3>
-                <img id="road-img" src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson5/images/asphalt-countryside-dawn-3070377.jpg" Height= "100 px" width= "100px" alt="picture of fall road">
+                <img id="road-img" src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson5/images/asphalt-countryside-dawn-3070377.jpg" Height= "100" width= "100" alt="picture of fall road">
                 <p>
                    Fall is a wonderful time of year. The leaves are changing and we are reminded that it is okay to let things go. Fall shows us how beautiful change is and that it is okay to let go of past things.  
                 </p>
@@ -135,12 +134,12 @@
             Current Date:<span id="todaysdate"></span>
         </p>
     </footer>
-    <script src="../weatherapi10.js"></script>
-    <script src="../responsive.js"></script>
-    <script src="../banner.js"></script>
-    <script src="../todaysdate.js"></script>
-    <script src="../date.js"></script>
-    <script src="../windchill.js"></script>
-    <script src="../webfontload.js"></script>
+    <script src="js/weatherapi10.js"></script>
+    <script src="js/responsive.js"></script>
+    <script src="js/todaysdate.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/webfontload.js"></script>
 </body>
 </html>
+<!-- Citation: HTML help from classmate Jonathan lundquist and Mckenzie Lewis -->
