@@ -1,0 +1,29 @@
+@media only screen and (max-width:850px)
+{
+    .navigation li,{
+        display: none;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    #main-logo{
+        width:100px;
+    }
+    #slogan{
+        font-size: 10px;
+    }
+    .responsive li{
+        display:block;
+        padding:5px;
+    }
+    ul.responsive{
+        flex-direction: column;
+        text-align:center;
+        padding: 5px;
+    }

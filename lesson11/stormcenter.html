@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Preston Page Reporting Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/lesson8/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/lesson8normalize.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/large.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/medium.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/small.css"/>
+</head>
+        <body>
+            <header> 
+                <img id="main-logo" src="https://raw.githubusercontent.com/Kanny31/kanny31.github.io/master/Lesson%203/iconfinder_sunny_2800045.png" alt="Weather logo."/>
+                <section class="headings">
+                    <h1>
+                        All Things Weather
+                        <p>Any Weather Any Time!</p>
+                    </h1>
+                </section> 
+            </header>
+    <nav>
+        <ul class="navigation">
+            <li>
+                <a href="#" onclick="toggleMenu()">&#9776; Menu</a>
+            </li>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="/lesson6/lesson6.html">Preston</a>
+            </li>
+            <li>
+                <a href="#">Soda Springs</a>
+            </li> 
+            <li>
+                <a href="#">Fish Haven</a>
+            </li>
+            <li class="active">
+                <a href="#">Storm Center</a>
+            </li>
+            <li>
+                <a href="/lesson7/gallery-7.html">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Storm Center Weather Report</h1>
+        <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>
+                Personal Information
+            </legend>
+            <label class="info req">*First & Last Name: <input class="req" type="text" name="flname" required pattern="[A-Za-z].{6,}"></label>
+            <label class="info req">*Phone Number:<input class="req" type="tel" name="phone" required></label>
+            <label class="info">Email:<input type="email" name="email" placeholder="your_email_here@email.com" required></label>
+            <label class="info req">*Zip Code:<input class="req" type="number" name="zip" required></label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Information about storm
+            </legend>
+            <label class="storm">Date:<input type="date" name="date"></label>
+            <label class="storm">Storm Type:<input list="storms" id="stormtype" name="stormtype">
+                <datalist id="storms">
+                    <option value="Flash Flood">Flash Flood</option>
+                    <option value="Hail">Hail</option>
+                    <option value="Hurricaine">Hurricaine</option>
+                    <option value="Thunderstorm">Thunderstorm</option>
+                    <option value="Tornado">Tornado</option>
+                </datalist>
+            </label>
+            <label class="storm">Storm Severity:<input type="range" id="rating" value="10" min="1" max="10" step="1" list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <span id="ratingvalue">10</span>
+            </label>
+            <datalist id="marks">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="6"></option>
+                <option value="7"></option>
+                <option value="8"></option>
+                <option value="9"></option>
+                <option value="10"></option>
+            </datalist>
+            <label class="storm"> Storm Region:<select name="region">
+                <option disabled>Select Region</option>
+                <option value="Preston">Preston</option>
+                <option value="Soda Springs">Soda Springs</option>
+                <option value="Fish Haven">Fish Haven</option>
+            </select>
+            </label>
+             <div>
+            <label class="storm">Are You in Danger?<br>
+                    Yes<input class="storm radio" type="radio" name="danger" value="danger">
+                    </label>    
+                    <label>Maybe<input  class="storm radio" type="radio" name="danger" value="maybedanger">
+                    </label>
+                    <label>No<input  class="storm radio" type="radio" name="danger" value="nodanger">
+                    </label>
+            </div>
+        </fieldset> 
+        <fieldset>
+            <legend>
+                Additional Information/Comments
+            </legend>
+            <label class="end">Comments:<textarea name="comments" rows="12" cols="125"></textarea>
+            </label>
+        </fieldset>
+            <label id="submit">
+                <input class="btn" type="submit" value="Send Report">
+            </label>
+        </form>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="current-year"></span> | Etim Akan | Utah | <a href="https://www.byui.edu/online">BYU-I Online Learning</a>
+        </p>
+        <p>
+            Current Date:<span id="todaysdate"></span>
+        </p>
+    </footer>
+    <script src="js/responsive.js"></script>
+    <script src="js/todaysdate.js"></script>
+    <script src="js/currentyear.js"></script> 
+    <script src="js/range.js"></script>     
+    </body>
+    </html>
+   <!--citation: help from classmate Mckenzie Lewis--> 
+
