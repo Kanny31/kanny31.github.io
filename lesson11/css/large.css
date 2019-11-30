@@ -189,9 +189,6 @@ main{
 	  font-size: 1.1em; 
     }
 
-
-}
-
 .lake-img {
     position: relative;
     width: 100%;
@@ -305,6 +302,29 @@ form input.radio{
 }
 .full-width{
   width: 100%;
+}
+.gal-grid:hover{
+    box-shadow: 7px 8px 5px #cccccc;
+    text-shadow: 2px 2px 2px #cccccc; 
+}
+
+figure img{
+    max-width:200px;
+    height:150px;
+}
+
+figcaption{
+    color: #3E5C76;
+    font-size: 12px;
+    display:flex;
+    justify-content: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 280px 280px 280px;
+   
 }
 
 figcaption {font-size: large;}
