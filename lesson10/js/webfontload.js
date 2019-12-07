@@ -5,3 +5,5 @@ WebFont.load({
         ]
     }
 });
+
+/* citation: Mckenzie Lewsis */ 

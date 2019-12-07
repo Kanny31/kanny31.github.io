@@ -32,3 +32,5 @@ let daynames = [
 
   let lastModified = document.lastModified;
   document.getElementById("last-modified").innerHTML = lastModified;
+
+  /* citation: Mckenzie Lewsis */ 
