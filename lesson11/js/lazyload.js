@@ -31,3 +31,5 @@ imagesToLoad.forEach((img) => {
         loadImages(img);
     });
 }
+
+/* citation: Help from Mckenzie Lewsis and Johathan Lundquist */ 
