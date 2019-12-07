@@ -6,4 +6,4 @@ WebFont.load({
     }
 });
 
-/* citation: Mckenzie Lewsis */ 
+/* citation: Help from Mckenzie Lewsis and Johathan Lundquist */ 

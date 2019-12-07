@@ -22,6 +22,6 @@ function newChill(){
             }
             return f;
         }
-
-        /* citation: Mckenzie Lewsis */ 
+        
+/* citation: Help from Mckenzie Lewsis and Johathan Lundquist */ 
     
