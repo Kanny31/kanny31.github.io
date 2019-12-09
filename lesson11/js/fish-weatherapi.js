@@ -11,31 +11,19 @@ fetch(apiURL)
     document.getElementById('humidity').textContent = jsObject.main.humidity;
     document.getElementById('speed').textContent = jsObject.wind.speed;
 
-    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png'; // note the concatenation
-    const desc = jsObject.weather[0].description; // note how we reference the weather array
+    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png'; 
+    const desc = jsObject.weather[0].description; 
     document.getElementById('weather').textContent = desc;
-
-  });
-
-const jsonURL = "https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&APPID=f59e1a32a18fcdcb1bcc9c2905156e33";
-
-fetch(jsonURL)
-  .then((response) => response.json())
-  .then((jsObject) => {
-    console.log(jsObject);
 
     var day = "";
     let count = 0;
     for (let i = 0; i < jsObject.list.length; i++) {
       if (jsObject.list[i].dt_txt.includes('18:00:00')) {
         count++;
-    /*Temp*/
         var temper = jsObject.list[i].main.temp.toFixed(0);
 
         let myhigh = 'high' + count;
         document.getElementById(myhigh).textContent = temper;
-
-        /*Day of Week*/
 
         let myday = 'day' + count;
         var d = new Date();
@@ -48,19 +36,19 @@ fetch(jsonURL)
 
 
         if (n == 0) {
-          day = "Sun";
+          day = "Sunday";
         } else if (n == 1) {
-          day = "Mon";
+          day = "Monday";
         } else if (n == 2) {
-          day = "Tues";
+          day = "Tuesday";
         } else if (n == 3) {
-          day = "Wed";
+          day = "Wednesday";
         } else if (n == 4) {
-          day = "Thurs";
+          day = "Thursday";
         } else if (n == 5) {
-          day = "Fri";
+          day = "Friday";
         } else if (n == 6) {
-          day = "Sat";
+          day = "Satday";
         }
 
         document.getElementById(myday).textContent = day;
