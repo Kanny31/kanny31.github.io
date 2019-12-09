@@ -14,6 +14,26 @@ fetch(apiURL)
     const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  
     const desc = jsObject.weather[0].description; 
     document.getElementById('weather').textContent = desc;
+    
+      const mondayimagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[6].weather[0].icon + '.png';
+        const mondesc = jsObject.list[6].weather[0].description;
+       
+
+        const tuesimagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[14].weather[0].icon + '.png';
+        const tuesdesc = jsObject.list[14].weather[0].description;
+      
+
+        const wedimagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[22].weather[0].icon + '.png';
+        const weddesc = jsObject.list[22].weather[0].description;
+       
+
+        const thurimagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[30].weather[0].icon + '.png';
+        const thurdesc = jsObject.list[30].weather[0].description;
+        
+
+        const friimagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[38].weather[0].icon + '.png';
+        const fridesc = jsObject.list[38].weather[0].description;
+        
 
      
      }
