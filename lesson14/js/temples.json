@@ -1,0 +1,138 @@
+[
+    {
+        "Temple": "Manti Utah Temple",
+        "Address": "200 E 510 N Manti UT 84642-1701 United States",
+        "Phone": "(1) 435-835-2291",
+        "Email": "Login to send email https://www.churchofjesuschrist.org/temples/details/manti-utah-temple?lang=eng",
+        "services": [
+            "Clothing rental available"
+            "Cafeteria available" 
+            "No patron housing available" 
+            "Distribution center nearby"
+        ],
+        "endowmentschedule": "Every hour starting at 7:30 am-7:30 PM Walk-ins and Appointments",
+        "baptismschedule": "6:30am-8:00pm/Appointments only",
+        "sealingschedule": "7:00am-8:20pm /Walk-ins and appointments",
+        "inititoryschedule": "7:00am-8:00pm /Walk-ins and appointments",
+        "templeclosures": [
+            {
+                 "start": "2019-December-24",
+                 "end": "2019-December-26"
+            },
+            {
+                 "start": "2019-December-31",
+                 "end": "2019-December-31"
+            },
+            {
+                 "start": "2020-January-01",
+                 "end": "2020-January-01"
+            },
+        ],
+"Milestones": [
+    {"announced":"1875-June-25"},
+    {"groundbreaking": "1877-April-25"},
+    {"dedicated": "1888-May-21"}
+]
+
+{
+    "Temple": "Salt Lake City Utah Temple",
+    "Address": "50 W North Temple St Salt Lake City UT 84150-9709 United States",
+    "Phone": "(1) 801-240-2640",
+    "Email": "Login to send email https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng",
+    "services": [
+        "Clothing rental available"
+        "Cafeteria available" 
+        "No patron housing available" 
+        "Distribution center nearby"
+    ],
+    "endowmentschedule": "Every hour starting at 7:00 am-7:00 PM / Walk-ins and Appointments",
+    "baptismschedule": "5:00am-8:00pm/ Walk-ins and appointments only",
+    "sealingschedule": "7:00am-8:00pm /Walk-ins and appointments",
+    "inititoryschedule": "6:00am-8:00pm /Walk-ins",
+    "templeclosures": [
+        {
+             "start": "2019-December-24",
+             "end": "2019-December-25"
+        },
+        {
+             "start": "2019-December-31",
+             "end": "2019-December-31"
+        },
+    ],
+"Milestones": [
+{"announced":"1847-July-28"},
+{"groundbreaking": "1853-February-14"},
+{"dedicated": "1893-April-6"}
+]
+
+{
+    "Temple": "Rexburg Idaho Temple",
+    "Address": "200 E 510 N Rexburg ID 83440-5404 United States",
+    "Phone": "(1) 208-656-0880",
+    "Email": "Login to send email https://www.churchofjesuschrist.org/temples/details/rexburg-idaho-temple?lang=eng",
+    "services": [
+        "Clothing rental available"
+        "No Cafeteria available" 
+        "No patron housing available" 
+        "Distribution center nearby"
+    ],
+    "endowmentschedule": "Every 45 minutes starting at 6:00 am-7:30 PM / Walk-ins and Appointments",
+    "baptismschedule": "6:00am-8:00pm/Walk Ins & Appointments only",
+    "sealingschedule": "7:00am-8:00pm /Walk-ins and appointments",
+    "inititoryschedule": "6:00am-8:00pm /Walk-ins",
+    "templeclosures": [
+        {
+             "start": "2019-December-24",
+             "end": "2019-December-25"
+        },
+        {
+             "start": "2019-December-31",
+             "end": "2019-December-31"
+        },
+        {
+             "start": "2020-January-01",
+             "end": "2020-January-01"
+        },
+    ],
+"Milestones": [
+{"announced":"2003-December-12"},
+{"groundbreaking": "2005-July-30"},
+{"dedicated": "2008-February-10"}
+]
+
+{
+    "Temple": "Provo City Center Utah Temple",
+    "Address": "50 South University Ave Provo UT 84601 United States",
+    "Phone": "(1) 801-343-2700",
+    "Email": "Login to send email https://www.churchofjesuschrist.org/temples/details/provo-city-center-temple?lang=eng",
+    "services": [
+        "Clothing rental available"
+        "No Cafeteria available" 
+        "No patron housing available" 
+        "Distribution center nearby"
+    ],
+    "endowmentschedule": "Every hour starting at 6:00 am-8:00 PM / Walk-ins",
+    "baptismschedule": "6:00am-8:00pm/Walk-ins only",
+    "sealingschedule": "Call the temple for information and schedule",
+    "inititoryschedule": "6:00am-8:00pm /Walk-ins Only",
+    "templeclosures": [
+        {
+             "start": "2019-December-24",
+             "end": "2019-December-26"
+        },
+        {
+             "start": "2019-December-31",
+             "end": "2019-December-31"
+        },
+        {
+             "start": "2020-January-01",
+             "end": "2020-January-01"
+        },
+    ],
+"Milestones": [
+{"announced":"2011-October-1"},
+{"groundbreaking": "2012-May-20"},
+{"dedicated": "2016-March-20"}
+]
+        
+    
