@@ -1,0 +1,18 @@
+.reservenow {
+    color: #cccc;
+    font-size: 26px;
+    line-height: 26px;
+    padding: 25px;
+    margin: 50px 50px 50px 50px;
+    border-radius: 8px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #5a7d7c 0%) ;
+    box-shadow: #232c33 5px 5px 15px 5px;
+    float: right;
+}
+
+.reservenow:hover {
+    background-image: linear-gradient(to right, #5a7d7c 100%);
+    color: #cccc;
+}
