@@ -1,3 +1,4 @@
+/********Main*******/ 
 .reservenow {
     color: #cccc;
     font-size: 26px;
@@ -7,12 +8,36 @@
     border-radius: 8px;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
-    background-image: linear-gradient(to right, #5a7d7c 0%) ;
-    box-shadow: #232c33 5px 5px 15px 5px;
+    background-image: #5a7d7c;
+    box-shadow: #232c33;
     float: right;
 }
 
 .reservenow:hover {
-    background-image: linear-gradient(to right, #5a7d7c 100%);
+    background-image: #5a7d7c;
     color: #cccc;
 }
+
+/*************Main*************/
+nav { 
+	background-color: #5a7d7c; 
+	  font-size: 1.2em;
+	  padding:1em;
+	  color: #ccc;
+	}
+	
+	nav ul{
+	  display:flex;
+		margin:auto;
+		padding-left:0px;
+		justify-content: center;
+		color: #4b4e6d;
+		list-style-type: none;
+	}
+		nav li: hover {
+			display: inline;
+			background: #4b4e6d;
+		}
+		li.active {
+			background-color: #6b7baa;
+        }
